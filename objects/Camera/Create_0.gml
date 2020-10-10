@@ -49,9 +49,22 @@ var xx = 0; repeat(5){
 	var _inst = instance_create_layer(x,y,"lyrEntities", Player);
 	with _inst{
 		image_index = xx;
-		depth = xx + 1;
+		depth = 20 + xx;
 		offset = offset_array[xx];
 		vert_off = 16 - (4 * xx);
 	};
 	xx++;
 };
+
+var yy = 0; repeat(6){
+	var _inst = instance_create_layer(x,y,"lyrEntities", Enemy01);
+	with _inst{
+		image_index = yy;
+		depth -= yy;
+		offset = offset_array[yy];
+		vert_off = 0;
+	};
+	yy++;
+};
+
+instance_create_layer(Player.x, Player.y, "lyr3D", PlayerController);

@@ -2,6 +2,9 @@
 if (keyboard_check(vk_escape)){
     game_end();
 };
+if (keyboard_check(ord("R"))){
+    game_restart();
+};
 
 
 if(mouse_wheel_up())	zoom = min(-200, zoom + 10);
