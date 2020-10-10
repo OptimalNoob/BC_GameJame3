@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sShip",
-    "path": "sprites/sShip/sShip.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Spaceship_4","path":"objects/Spaceship_4/Spaceship_4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Spaceship_4","path":"objects/Spaceship_4/Spaceship_4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Cube01","path":"objects/Cube01/Cube01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Cube01","path":"objects/Cube01/Cube01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Entities.yy",
+    "name": "3D Objects",
+    "path": "folders/3D Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spaceship_4",
+  "name": "Cube01",
   "tags": [],
   "resourceType": "GMObject",
 }

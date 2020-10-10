@@ -4,14 +4,14 @@ CubeBuffer = vertex_create_buffer();
 xmov = 0;
 ymov = 0;
 zmov = 0;
-cube_width	= BLOCK_SIZE * 2;
-cube_height	= BLOCK_SIZE * 1;
-cube_depth	= BLOCK_SIZE * 4;
+cube_width	= BLOCK_SIZE * 4;
+cube_height	= BLOCK_SIZE * 6;
+cube_depth	= BLOCK_SIZE * 2;
 
 
-x1 = 600;
+x1 = 900;
 y2 = scene.ground;
-z1 = 10;
+z1 = 50;
 y1 = y2 - cube_height;
 x2 = x1 + cube_width;
 z2 = z1 + cube_depth;;

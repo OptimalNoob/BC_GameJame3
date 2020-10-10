@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Entities.yy",
+    "name": "3D Objects",
+    "path": "folders/3D Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "Cube02",

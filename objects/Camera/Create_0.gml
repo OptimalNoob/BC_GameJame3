@@ -1,6 +1,6 @@
 ///// @desc
 init_globals()
-//window_set_cursor(cr_none);
+window_set_cursor(cr_none);
 
 Cam = camera_create();
 view_camera[0] = Cam;
@@ -13,8 +13,9 @@ gpu_set_zwriteenable(true);
 vertex_format_begin();
 vertex_format_add_position_3d();
 vertex_format_add_normal();
-vertex_format_add_color();
 vertex_format_add_texcoord();
+vertex_format_add_color();
+
 format = vertex_format_end();
 
 camx = room_width / 2;
@@ -27,8 +28,7 @@ looky = camy;
 lookz = 500;
 done = false;
 
-instance_create_layer(room_width/2,room_height/2,"lyrCamera", CamFollow);
-follow = Spaceship_1;
+follow = Player;
 
 surface_resize(application_surface, 1280, 720);
 window_set_size(1280, 720);
@@ -45,8 +45,13 @@ camera_set_proj_mat(Cam, pm);
 cam_w = camera_get_view_width(Cam);
 cam_h = camera_get_view_height(Cam);
 
-instance_create_layer(room_width/2, room_height/2, "lyrEntities", Spaceship_1);
-instance_create_layer(room_width/2, room_height/2, "lyrEntities", Spaceship_2);
-instance_create_layer(room_width/2, room_height/2, "lyrEntities", Spaceship_3);
-instance_create_layer(room_width/2, room_height/2, "lyrEntities", Spaceship_4);
-instance_create_layer(room_width/2, room_height/2, "lyrEntities", Spaceship_5);
+var xx = 0; repeat(5){
+	var _inst = instance_create_layer(x,y,"lyrEntities", Player);
+	with _inst{
+		image_index = xx;
+		depth = xx + 1;
+		offset = offset_array[xx];
+		vert_off = 16 - (4 * xx);
+	};
+	xx++;
+};
