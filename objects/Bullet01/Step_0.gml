@@ -1,3 +1,4 @@
 /// @desc
-depth += 50;
-y -= 0.2;
+zmov+=16
+
+if(zmov> 4000) instance_destroy();
