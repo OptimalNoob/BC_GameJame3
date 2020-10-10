@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sShip","path":"sprites/sShip/sShip.yy",},"order":0,},
+    {"id":{"name":"Grass","path":"sprites/Grass/Grass.yy",},"order":0,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"Draw3D","path":"scripts/Draw3D/Draw3D.yy",},"order":0,},
     {"id":{"name":"Cube01","path":"objects/Cube01/Cube01.yy",},"order":0,},
@@ -35,12 +36,14 @@
     {"folderPath":"folders/Classes.yy","order":16,"resourceVersion":"1.0","name":"Classes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites.yy","order":17,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/3D Objects.yy","order":18,"resourceVersion":"1.0","name":"3D Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Textures.yy","order":19,"resourceVersion":"1.0","name":"Textures","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"GrassTex","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {

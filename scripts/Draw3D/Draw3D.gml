@@ -8,11 +8,11 @@ function draw_3d_point(_buf, _x,_y,_z,_normx, _normy, _normz, _u, _v, _color, _a
 function draw_3d_floor(vbuffer,x1,z1,x2,z2, _y){
 
 	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,c_white,1);
-	draw_3d_point(vbuffer, x1, _y, z2, 0,1,0,0,0,c_white,1);
-	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,0,0,c_white,1);
+	draw_3d_point(vbuffer, x1, _y, z2, 0,1,0,1,0,c_white,1);
+	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,c_white,1);
 
-	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,0,0,c_white,1);
-	draw_3d_point(vbuffer, x2, _y, z1, 0,1,0,0,0,c_white,1);
+	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,c_white,1);
+	draw_3d_point(vbuffer, x2, _y, z1, 0,1,0,0,1,c_white,1);
 	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,c_white,1);
 };
 
