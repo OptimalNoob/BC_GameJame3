@@ -10,11 +10,21 @@ function draw_3d_floor(vbuffer,x1,z1,x2,z2, _y){
 	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,c_white,1);
 	draw_3d_point(vbuffer, x1, _y, z2, 0,1,0,1,0,c_white,1);
 	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,c_white,1);
-
 	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,c_white,1);
 	draw_3d_point(vbuffer, x2, _y, z1, 0,1,0,0,1,c_white,1);
 	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,c_white,1);
 };
+
+function draw_3d_wall(vbuffer,x1,y1,x2,y2, _z){
+
+	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,0,0,c_blue,1);
+	draw_3d_point(vbuffer, x1, y2, _z, 0,1,0,1,0,c_blue,1);
+	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,1,1,c_blue,1);
+	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,1,1,c_blue,1);
+	draw_3d_point(vbuffer, x2, y1, _z, 0,1,0,0,1,c_blue,1);
+	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,0,0,c_blue,1);
+};
+
 
 function draw_3d_cube(buf, x1,y1,z1,x2,y2,z2){
 	c1 = make_color_rgb(255,255,255);
