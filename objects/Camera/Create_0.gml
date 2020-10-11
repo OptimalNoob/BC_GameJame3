@@ -1,5 +1,5 @@
 ///// @desc
-init_globals()
+init_globals();
 window_set_cursor(cr_none);
 
 //fps update timer
