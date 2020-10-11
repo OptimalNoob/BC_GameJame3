@@ -4,7 +4,8 @@ if(instance_exists(Player)){
 	y = Player.y;
 };
 
-if(keyboard_check_pressed(vk_enter)){
+if(mouse_check_button(mb_left) && alarm[0] == -1){
+	alarm[0] = 5;
 	var _inst = instance_create_layer(x,y,"lyrEntities", Bullet01);
 	_inst.xspawn = x;
 };

@@ -1,4 +1,9 @@
 /// @desc
+if(alarm[1] == -1){
+	alarm[1] = 10;
+	fpsOut = string(fps_real);
+};
+
 if (keyboard_check(vk_escape)){
     game_end();
 };
@@ -20,6 +25,8 @@ if(follow != noone){
 	camx = clamp(lerp(camx,follow.x,0.15), 0 + cam_w / 2, room_width - cam_w / 2);
 	camy = lerp(camy,follow.y - 80,0.15);
 };
-
+if(keyboard_check_pressed(ord("L"))){
+	PlayerHP--;
+};
 
 if(keyboard_check_pressed(vk_f11)) window_set_fullscreen(!window_get_fullscreen())

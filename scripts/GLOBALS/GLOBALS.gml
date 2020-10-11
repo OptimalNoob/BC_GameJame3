@@ -3,4 +3,7 @@ function init_globals(){
 	globalvar StackOffset; StackOffset = 0.02;
 	globalvar PlayerScale; PlayerScale = 2;
 	globalvar ControlScheme; ControlScheme = scheme.mouse
+	globalvar PlayerHP; PlayerHP = 5;
+	globalvar PlayerMAXHP; PlayerMAXHP = 5;
+	globalvar PlayerSpecial; PlayerSpecial = 0;	
 };

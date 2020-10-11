@@ -3,8 +3,7 @@ init_globals()
 window_set_cursor(cr_none);
 
 //fps update timer
-fpsWait = 0
-fpsHold = 0
+fpsOut = "";
 
 Cam = camera_create();
 view_camera[0] = Cam;
