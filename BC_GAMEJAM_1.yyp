@@ -6,6 +6,7 @@
     {"id":{"name":"Grass","path":"sprites/Grass/Grass.yy",},"order":0,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"Collision3D","path":"scripts/Collision3D/Collision3D.yy",},"order":4,},
+    {"id":{"name":"EnemyTest","path":"objects/EnemyTest/EnemyTest.yy",},"order":3,},
     {"id":{"name":"Draw3D","path":"scripts/Draw3D/Draw3D.yy",},"order":0,},
     {"id":{"name":"Cube01","path":"objects/Cube01/Cube01.yy",},"order":0,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":3,},

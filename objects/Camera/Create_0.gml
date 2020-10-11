@@ -13,6 +13,8 @@ view_visible[0] = true;
 
 gpu_set_ztestenable(true);
 gpu_set_zwriteenable(true);
+gpu_set_alphatestenable(true);
+gpu_set_alphatestref(0);
 
 vertex_format_begin();
 vertex_format_add_position_3d();
