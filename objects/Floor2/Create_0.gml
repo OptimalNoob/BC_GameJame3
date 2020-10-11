@@ -12,7 +12,7 @@ cube_depth	= BLOCK_SIZE * 4;
 
 x1 = -4096*2;
 y1 = scene.ground;
-z1 = 10;
+z1 = 0;
 x2 = -x1;
 z2 = 4096;
 
@@ -25,6 +25,6 @@ vertex_begin(FloorBuffer, Camera.format);
 			y2 + ymov,
 			z2 + zmov);
 */
-draw_3d_floor(FloorBuffer, x1, z1, x2, z2, y1)
+draw_3d_floor(FloorBuffer, x1, z1, x2, z2, y1, c_white)
 
 vertex_end(FloorBuffer);

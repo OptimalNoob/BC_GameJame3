@@ -1,0 +1,16 @@
+This is a doc to outline some of the things that still need to be done.
+
+-Apply uv coord info on cube function, is tedious so I'm holding off on it for now
+
+-Convert enemy into a series of 3D planes to allow for easy 3D collision checking.
+
+-In addition to the above, perhaps find a way to facilitate easier texture grouping.
+	-Not completely necessary, however it would improve work speed in the future
+ 
+-Explore the timeline feature to construct levels. This would allow frame by frame control of spawning.
+
+-Create basic art to convey the "story".
+	-Main character
+	-The antagonists
+	-Some form of supporting cast? For instance, end of level shopkeep?
+	

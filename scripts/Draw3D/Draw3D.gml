@@ -5,14 +5,14 @@ function draw_3d_point(_buf, _x,_y,_z,_normx, _normy, _normz, _u, _v, _color, _a
 	vertex_color(_buf, _color, _alpha);
 };
 
-function draw_3d_floor(vbuffer,x1,z1,x2,z2, _y){
+function draw_3d_floor(vbuffer,x1,z1,x2,z2, _y, color){
 
-	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,c_white,1);
-	draw_3d_point(vbuffer, x1, _y, z2, 0,1,0,1,0,c_white,1);
-	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,c_white,1);
-	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,c_white,1);
-	draw_3d_point(vbuffer, x2, _y, z1, 0,1,0,0,1,c_white,1);
-	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,c_white,1);
+	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,color,1);
+	draw_3d_point(vbuffer, x1, _y, z2, 0,1,0,1,0,color,1);
+	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,color,1);
+	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,color,1);
+	draw_3d_point(vbuffer, x2, _y, z1, 0,1,0,0,1,color,1);
+	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,color,1);
 };
 
 function draw_3d_wall(vbuffer,x1,y1,x2,y2, _z){
