@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-zmov-=4
+zmov-=16
+depth = zmov
 if(zmov<-200){
 	zmov = 5000
 	x = irandom_range(0,1000)

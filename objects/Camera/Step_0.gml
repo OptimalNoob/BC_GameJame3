@@ -26,10 +26,10 @@ if(keyboard_check(ord("D"))) camx++;
 if(keyboard_check(ord("W"))) camy++;
 if(keyboard_check(ord("S"))) camy--;
 
-//if(follow != noone){
-//	camx = clamp(lerp(camx,follow.x,0.15), 0 + cam_w / 2, room_width - cam_w / 2);
-//	camy = lerp(camy,follow.y - 80,0.15);
-//};
+if(follow != noone){
+	camx = clamp(lerp(camx,follow.x,0.15), 0 + cam_w / 2, room_width - cam_w / 2);
+	camy = lerp(camy,follow.y - 80,0.15);
+};
 if(keyboard_check_pressed(ord("L"))){
 	PlayerHP--;
 };

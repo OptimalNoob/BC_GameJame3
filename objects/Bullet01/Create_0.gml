@@ -2,7 +2,7 @@
 // You can write your code in this editor
 bulletBuffer = vertex_create_buffer();
 xspawn = 0;
-
+mask_index = sBullet;
 xmov = x;
 ymov = y;
 zmov = 0;

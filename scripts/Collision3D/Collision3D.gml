@@ -13,18 +13,19 @@ function place_meeting_3D(_x,_y,_z,_inst){
 	*/
 	
 	instIDs = ds_list_create();
-	var instCount = instance_place_list(x,y,_inst,instIDs, true);
+	var instCount = instance_place_list(x,y,_inst,instIDs, true);	
 	
 	for(i=0;i<instCount;i++){
-		//if(_z == instIDs[|i].zmov){
+		if(_z > _inst.zmov - 16 && _z < _inst.zmov + 16){
 			var sentID = instIDs[|i]
 			ds_list_destroy(instIDs)
 			return sentID
-		//}
-			
+		}		
 	}
 	
 	ds_list_destroy(instIDs)
 	return noone
+	
+	
 	
 };

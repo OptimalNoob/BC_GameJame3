@@ -8,10 +8,11 @@ if(zmov> 4000) instance_destroy();
 	instance_destroy();
 };*/
 
-if(place_meeting_3D(xmov,ymov,zmov, EnemyTest) != noone){
-	show_debug_message("hit")	
+var hit = place_meeting_3D(xmov,ymov,zmov, EnemyTest);
+if(hit != noone){
+	show_debug_message("bang");
+	instance_destroy(hit);
 }
-
 
 
 //if(instance_exists(Enemy01)){

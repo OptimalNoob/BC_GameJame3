@@ -6,9 +6,6 @@ for(i=0;i<5;i++){
 	vertex_submit(playerBuffer[i], pr_trianglelist, sprite_get_texture(sShip, i));
 }
 
-matrix_set(matrix_world, matrix[0]);
-vertex_submit(playerBuffer[0], pr_trianglelist, sprite_get_texture(sShip, 0));
-
 
 matrix_set(matrix_world, matrix_build_identity());
 
