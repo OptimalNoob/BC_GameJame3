@@ -1,10 +1,12 @@
 /// @desc
-zmov+=16
+zmov += bull_speed;
 
 if(zmov> 4000) instance_destroy();
 
-var hit = place_meeting_3D(xmov,ymov,zmov, EnemyParent);
-if(hit != noone){
-	instance_destroy(hit);
+var _hit = place_meeting_3D(xmov,ymov,zmov, EnemyParent);
+if(_hit != noone){
+	PlayerPoints += _hit.score_points;
+	audio_play_sound(sndExplode01, 9, false);
+	instance_destroy(_hit);
 	instance_destroy();
 }

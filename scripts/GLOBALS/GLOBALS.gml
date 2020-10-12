@@ -8,6 +8,8 @@ function init_globals(){
 	globalvar PlayerSpecial;	PlayerSpecial = 0;
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, EnemyTest, EnemyTest2);
+	globalvar PlayerPoints;		PlayerPoints = 0;
+	globalvar FloorSpeed;		FloorSpeed = 64;
 };
 function init_globals_newgame(){
 	PlayerHP = 5;

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc
 skyBuffer = vertex_create_buffer();
 
 x1 = -4096 * 3

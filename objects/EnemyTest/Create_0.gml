@@ -10,7 +10,7 @@ zmov = 5000;
 depth = zmov;
 xmov = x;
 ymov = y;
-
+score_points = 10;
 zbound = 16;
 ai_decision = irandom(1);
 

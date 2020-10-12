@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @desc
 // You can write your code in this editor
 if(zmov<-256){
 		zmov = 5120

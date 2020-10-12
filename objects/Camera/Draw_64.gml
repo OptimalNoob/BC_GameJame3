@@ -32,7 +32,7 @@ if(instance_exists(Bullet01)){
 //	draw_text(16,16 * 21, "Bullet Count: " + string(instance_number(Floor)));
 //	draw_text(16,16 * 22, "Bullet Count: " + string(instance_number(Floor2)));
 //};
-
+draw_text(16,16 * 22, "Score: " + string(PlayerPoints));
 
 #region HelthBar
 var hb_w = 200;

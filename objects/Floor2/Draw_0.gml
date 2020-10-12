@@ -1,6 +1,6 @@
-/// @description Insert description here
+/// @desc
 // You can write your code in this editor
-zmov-=16
+zmov -= FloorSpeed;
 
 if(zmov<-4096-256){
 	zmov = 4096-16-256

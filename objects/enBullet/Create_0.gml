@@ -21,6 +21,7 @@ draw_3d_cube(bulletBuffer,
 			z1,
 			x2,
 			y2,
-			z2);
+			z2,
+			252,102,3);
 
 vertex_end(bulletBuffer);

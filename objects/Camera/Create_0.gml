@@ -54,3 +54,5 @@ timeline_index = tlLevel1;
 timeline_position = 0;
 timeline_running = true;
 timeline_loop = true;
+
+instance_create_layer(0,0,"lyrEntities", MusicController);

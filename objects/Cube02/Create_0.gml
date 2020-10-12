@@ -23,5 +23,6 @@ draw_3d_cube(CubeBuffer,
 			z1 + zmov,
 			x2 + xmov,
 			y2 + ymov,
-			z2 + zmov);
+			z2 + zmov,
+			255,255,255);
 vertex_end(CubeBuffer);

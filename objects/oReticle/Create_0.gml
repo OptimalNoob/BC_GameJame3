@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @desc
 // You can write your code in this editor
 reticleBuffer = vertex_create_buffer();
 

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc
 CubeBuffer = vertex_create_buffer();
 
 
@@ -25,5 +24,6 @@ draw_3d_cube(CubeBuffer,
 			z1,
 			x2,
 			y2,
-			z2);
+			z2,
+			255,255,255);
 vertex_end(CubeBuffer);

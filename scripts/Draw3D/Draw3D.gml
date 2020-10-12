@@ -27,10 +27,10 @@ function draw_3d_wall(vbuffer,x1,y1,x2,y2,_z, color){
 };
 
 
-function draw_3d_cube(buf, x1,y1,z1,x2,y2,z2){
-	c1 = make_color_rgb(255,255,255);
-	c2 = make_color_rgb(200,200,200);
-	c3 = make_color_rgb(150,150,150);
+function draw_3d_cube(buf, x1,y1,z1,x2,y2,z2,_r,_g,_b){
+	c1 = make_color_rgb(_r,_g,_b);
+	c2 = make_color_rgb(_r-20,_g-20,_b-20);
+	c3 = make_color_rgb(_r-50,_g-50,_b-50);
 	
 	// Front Side
 	draw_3d_point(buf, x1, y1, z1, 0,0,1,0,0,c1,1);

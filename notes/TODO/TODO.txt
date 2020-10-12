@@ -33,6 +33,8 @@ This is a doc to outline some of the things that still need to be done and gener
 
 -More Enemy Designs
 
+-Shield System
+
 -Shop System? (Space Station?)
 
 -Level Selection Screen / Progression
