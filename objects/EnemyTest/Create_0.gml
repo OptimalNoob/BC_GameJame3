@@ -13,6 +13,12 @@ xmov = 300
 ymov = scene.ground - 500
 zmov = 1000
 
+x=xmov
+y=ymov
+
+show_debug_message(string("enemy: ")+ string(x) + ", " + string(y))
+
+
 panelSize = 256
 
 vertex_begin(enemyBuffer[0], Camera.format);
