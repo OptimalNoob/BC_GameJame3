@@ -1,4 +1,9 @@
-/// @desc				 
+/// @desc
+if(play_title){
+	draw_sprite_ext(sTitle_flash,0,0,0,1,1,0,c_white,flash_alph);
+	flash_alph = max(0,flash_alph - 0.01);
+	layer_set_visible("lyrBG",true);
+};
 draw_sprite(let_n[0], 0, col_1_x, row_1_y);
 draw_sprite(let_n[1], 0, col_1_x, row_2_y);
 

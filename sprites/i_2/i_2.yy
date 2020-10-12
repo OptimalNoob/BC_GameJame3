@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9d2ccd14-e367-4242-92a9-5707453f853b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Title",
-    "path": "folders/Sprites/Title.yy",
+    "name": "Letters",
+    "path": "folders/Sprites/Title/Letters.yy",
   },
   "resourceVersion": "1.0",
   "name": "i_2",

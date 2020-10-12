@@ -1,6 +1,6 @@
 /// @desc
 play_title = false;
-
+flash_alph = 1;
 row_1_start		= -500;
 row_1_end		= 48;
 
