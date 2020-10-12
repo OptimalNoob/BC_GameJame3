@@ -2,23 +2,57 @@ This is a doc to outline some of the things that still need to be done and gener
 
 -Apply uv coord info on cube function, is tedious so I'm holding off on it for now
 
--Convert enemy into a series of 3D planes to allow for easy 3D collision checking.
-	-Might use multiple buffers?
+//-Convert enemy into a series of 3D planes to allow for easy 3D collision checking.
+//	-Might use multiple buffers?
 
--In addition to the above, perhaps find a way to facilitate easier texture grouping.
-	-Not completely necessary, however it would improve work speed in the future
+//-In addition to the above, perhaps find a way to facilitate easier texture grouping.
+//	-Not completely necessary, however it would improve work speed in the future
  
--Explore the timeline feature to construct levels. This would allow frame by frame control of spawning.
+//-Explore the timeline feature to construct levels. This would allow frame by frame control of spawning.
 
 -Create basic art to convey the "story".
 	-Main character
 	-The antagonists
 	-Some form of supporting cast? For instance, end of level shopkeep?
 	
--Check to see if buffers are deleted automatically, if not, do some cleanup code on detroy
+-CLEAN UP BUFFERS WHEN NOT IN USE!!!
 
--Small thought dump on bullets. We don't exactly have the luxury of using the built-in collision detection
-gamemaker has. That's important becuase it allows us to get the actual instance id of the colliding object.
-We could attempt to use the standard 2d collision, which would return regardless of depth. But it also
-gives us an ID, so we could check the zmov coordinate that we know we should have and compare to see if it
-is a true hit. I really hope that works.
+//-Small thought dump on bullets. We don't exactly have the luxury of using the built-in collision detection
+//gamemaker has. That's important becuase it allows us to get the actual instance id of the colliding object.
+//We could attempt to use the standard 2d collision, which would return regardless of depth. But it also
+//gives us an ID, so we could check the zmov coordinate that we know we should have and compare to see if it
+//is a true hit. I really hope that works.
+
+-Finish Title Screen
+	-Start Game Button
+	-How To Play!!!
+	-Options Button?
+		-Adjust Audio Levels
+	-Credits Button
+	-Quit Game
+
+-More Enemy Designs
+
+-Shop System? (Space Station?)
+
+-Level Selection Screen / Progression
+
+-Powerups/Pickups?
+
+-Bosses at end stage
+
+-Credits Screen
+
+-Pester Josh for Music
+
+-Opening Cutscene?
+	-Animated? Comic Style? Still Images?
+	-Skip Intro
+
+-World Building / More Levels
+
+-End Level Screen (Get Money, Fuck Bitches)
+
+-End Cutscene / Roll Credits
+
+---Polish / Flush
