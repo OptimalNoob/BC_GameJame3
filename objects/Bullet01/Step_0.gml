@@ -2,10 +2,17 @@
 zmov+=16
 
 if(zmov> 4000) instance_destroy();
-if(place_meeting_3D(xmov,ymov,zmov, Enemy01)){
+/*if(place_meeting_3D(xmov,ymov,zmov, EnemyTest)){
 	show_debug_message("hit");
 	show_debug_message(string(xmov) + ", " + string(ymov) + ", "+ string(zmov));
-};
+	instance_destroy();
+};*/
+
+if(place_meeting_3D(xmov,ymov,zmov, EnemyTest) != noone){
+	show_debug_message("hit")	
+}
+
+
 
 //if(instance_exists(Enemy01)){
 //	if(abs(abs(Enemy01.x) - abs(xmov)) <= 16){

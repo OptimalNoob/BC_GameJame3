@@ -12,3 +12,8 @@ if(row_1_y > row_1_end - 1){
 if(play_title && !audio_is_playing(sndTitle01)){
 	audio_play_sound(sndTitle01, 10, 1);
 };
+
+if(keyboard_check(vk_enter)){
+	audio_stop_all()
+	room++	
+}

@@ -6,6 +6,8 @@ xspawn = 0;
 xmov = Player.x
 ymov = Player.y - 64
 zmov = 0;
+x = xmov
+y = ymov
 cube_width	= BLOCK_SIZE * 2;
 cube_height	= BLOCK_SIZE * 1;
 cube_depth	= BLOCK_SIZE * 4;
@@ -35,3 +37,6 @@ draw_3d_cube(bulletBuffer,
 //draw_3d_floor(bulletBuffer, x1, z1, x2, z2, y1)
 
 vertex_end(bulletBuffer);
+
+
+show_debug_message(string("bullet: ")+ string(x) + ", " + string(y))

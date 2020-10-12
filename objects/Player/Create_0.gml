@@ -13,3 +13,4 @@ offset_array[3] = 1.5;
 offset_array[4] = 1.6;
 offset = 1.2;
 vert_off = 16;
+show_debug_message(string("player: ")+ string(x) + ", " + string(y))
