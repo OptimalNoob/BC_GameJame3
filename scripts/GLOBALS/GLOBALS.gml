@@ -5,7 +5,9 @@ function init_globals(){
 	globalvar ControlScheme;	ControlScheme = scheme.mouse
 	globalvar PlayerHP;			PlayerHP = 5;
 	globalvar PlayerMAXHP;		PlayerMAXHP = 5;
-	globalvar PlayerSpecial;	PlayerSpecial = 0;	
+	globalvar PlayerSpecial;	PlayerSpecial = 0;
+	globalvar EnList;			EnList = ds_list_create();
+								ds_list_add(EnList, EnemyTest, EnemyTest2);
 };
 function init_globals_newgame(){
 	PlayerHP = 5;

@@ -28,6 +28,11 @@ if(instance_exists(Bullet01)){
 	draw_text(16,16 * 20, "Bullet Count: " + string(instance_number(Bullet01)));
 };
 
+//if(instance_exists(Floor)){
+//	draw_text(16,16 * 21, "Bullet Count: " + string(instance_number(Floor)));
+//	draw_text(16,16 * 22, "Bullet Count: " + string(instance_number(Floor2)));
+//};
+
 
 #region HelthBar
 var hb_w = 200;

@@ -50,3 +50,7 @@ camera_set_proj_mat(Cam, pm);
 cam_w = camera_get_view_width(Cam);
 cam_h = camera_get_view_height(Cam);
 
+timeline_index = tlLevel1;
+timeline_position = 0;
+timeline_running = true;
+timeline_loop = true;

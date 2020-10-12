@@ -5,8 +5,6 @@ if(mouse_check_button(mb_left) && alarm[0] == -1){
 	_inst.xspawn = x;
 };
 
-//xmov = mouse_x;
-//ymov = mouse_y;
 x = xmov;
 y = ymov;
 zmov = depth;
@@ -19,4 +17,7 @@ switch(ControlScheme){
 	case scheme.keyboard:
 		
 	break;
+};
+if(PlayerHP <= 0){
+	game_restart();
 };

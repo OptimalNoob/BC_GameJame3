@@ -6,8 +6,8 @@ mask_index = sEnemy01;
 matrix = 0;
 xmov = 300;
 ymov = scene.ground - 500;
-zmov = 1000;
-depth = 500;
+zmov = 5000;
+depth = zmov;
 xmov = x;
 ymov = y;
 

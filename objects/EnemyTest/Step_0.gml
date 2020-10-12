@@ -2,9 +2,7 @@
 depth -= 16
 zmov = depth;
 if(zmov <- 200){
-	depth = 5000
-	x = irandom_range(0,1000);
-	y = irandom_range(0,scene.ground-500);
+	instance_destroy();
 };
 
 xmov = x;
