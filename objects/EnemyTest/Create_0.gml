@@ -2,7 +2,7 @@
 for(i=0;i<6;i++){
 	enemyBuffer[i] = vertex_create_buffer();
 };
-mask_index = Enemy01;
+mask_index = sEnemy01;
 matrix = 0;
 xmov = 300;
 ymov = scene.ground - 500;
@@ -11,8 +11,8 @@ depth = 500;
 xmov = x;
 ymov = y;
 
-show_debug_message(string("enemy: ")+ string(x) + ", " + string(y));
-
+zbound = 16;
+ai_decision = irandom(1);
 
 var sSize = 128;
 

@@ -4,7 +4,7 @@ reticleBuffer = vertex_create_buffer();
 
 xmov = x;
 ymov = y;
-zmov = 1500;
+zmov = 1000;
 
 var sSize = 32;
 

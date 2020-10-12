@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @desc
 
 for(i=0;i<6;i++){
 	matrix[i] = matrix_build(xmov,ymov,zmov+4*i,0,0,270,1,1,1)

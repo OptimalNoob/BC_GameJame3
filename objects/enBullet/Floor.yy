@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sEnemy01",
-    "path": "sprites/sEnemy01/sEnemy01.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Enemy01","path":"objects/Enemy01/Enemy01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Enemy01","path":"objects/Enemy01/Enemy01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Floor","path":"objects/Floor/Floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Floor","path":"objects/Floor/Floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Entities/Enemies.yy",
+    "name": "3D Objects",
+    "path": "folders/3D Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Enemy01",
+  "name": "Floor",
   "tags": [],
   "resourceType": "GMObject",
 }

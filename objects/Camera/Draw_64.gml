@@ -24,6 +24,10 @@ draw_text(16,16 * 16, "XGUI: " + string(mouse_gui_x));
 draw_text(16,16 * 17, "YGUI: " + string(mouse_gui_y));
 draw_text(16,16 * 18, "X: " + string(device_mouse_x(0)));
 draw_text(16,16 * 19, "Y: " + string(device_mouse_y(0)));
+if(instance_exists(Bullet01)){
+	draw_text(16,16 * 20, "Bullet Count: " + string(instance_number(Bullet01)));
+};
+
 
 #region HelthBar
 var hb_w = 200;

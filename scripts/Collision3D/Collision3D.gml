@@ -16,7 +16,7 @@ function place_meeting_3D(_x,_y,_z,_inst){
 	var instCount = instance_place_list(x,y,_inst,instIDs, true);	
 	
 	for(i=0;i<instCount;i++){
-		if(_z > _inst.zmov - 16 && _z < _inst.zmov + 16){
+		if(_z > _inst.zmov - _inst.zbound && _z < _inst.zmov + _inst.zbound){
 			var sentID = instIDs[|i]
 			ds_list_destroy(instIDs)
 			return sentID

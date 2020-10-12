@@ -12,7 +12,8 @@ zmov = 0;
 depth = 0;
 offset = 1.2;
 vert_off = 16;
-show_debug_message(string("enemy: ")+ string(x) + ", " + string(y))
+
+zbound = 16;
 var sSize = 128;
 
 for(i=0;i<5;i++){

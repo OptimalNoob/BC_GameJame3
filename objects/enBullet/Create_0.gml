@@ -1,18 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc
+
 bulletBuffer = vertex_create_buffer();
 xspawn = 0;
 mask_index = sBullet;
 xmov = x;
 ymov = y;
 zmov = 0;
+bull_speed = 32;
 
 x1 = -4;
 y1 = -4;
-z1 = -32;
+z1 = 32;
 x2 = 4;
 y2 = 4;
-z2 = 32;
+z2 = -32;
 vertex_begin(bulletBuffer, Camera.format);
 draw_3d_cube(bulletBuffer,
 			x1,
@@ -21,7 +22,5 @@ draw_3d_cube(bulletBuffer,
 			x2,
 			y2,
 			z2);
-
-//draw_3d_floor(bulletBuffer, x1, z1, x2, z2, y1)
 
 vertex_end(bulletBuffer);
