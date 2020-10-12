@@ -15,15 +15,17 @@ if(follow != noone){
 	draw_text(16,16 * 9,	"[Player]");
 	draw_text(16,16 * 10,	"X: "	+ string(follow.x));
 	draw_text(16,16 * 11,	"Y: "	+ string(follow.y));
+	draw_text(16,16 * 12,	"xmov: "	+ string(follow.xmov));
+	draw_text(16,16 * 13,	"ymov: "	+ string(follow.ymov));
 };
 
-draw_text(16,16 * 13, "[Mouse GUI]");
-draw_text(16,16 * 14, "X: " + string(mouse_gui_x));
-draw_text(16,16 * 15, "Y: " + string(mouse_gui_y));
+draw_text(16,16 * 15, "[Mouse]");
+draw_text(16,16 * 16, "XGUI: " + string(mouse_gui_x));
+draw_text(16,16 * 17, "YGUI: " + string(mouse_gui_y));
+draw_text(16,16 * 18, "X: " + string(device_mouse_x(0)));
+draw_text(16,16 * 19, "Y: " + string(device_mouse_y(0)));
 
-//draw_sprite_ext(sReticle, 0, mouse_gui_x, mouse_gui_y,
-//				1,1,0,c_white, 1);
-				
+#region HelthBar
 var hb_w = 200;
 var hb_h = 40;
 draw_set_color(c_black);
@@ -49,3 +51,4 @@ draw_rectangle(
 			(16 + hb_w - 4) * (PlayerHP / PlayerMAXHP),
 			gui_h - hb_h - 16 + hb_h - 4,
 			false);
+#endregion

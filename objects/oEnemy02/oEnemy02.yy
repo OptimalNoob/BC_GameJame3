@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Entities.yy",
+    "name": "Enemies",
+    "path": "folders/Entities/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "oEnemy02",

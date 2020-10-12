@@ -3,18 +3,16 @@
 bulletBuffer = vertex_create_buffer();
 xspawn = 0;
 
-xmov = x
-ymov = y - 64
+xmov = x;
+ymov = y;
 zmov = 0;
-x = xmov
-y = ymov
 
-x1 = -4
-y1 = -4
-z1=-32
-x2 = 4
-y2 = 4
-z2 = 32
+x1 = -4;
+y1 = -4;
+z1 = -32;
+x2 = 4;
+y2 = 4;
+z2 = 32;
 vertex_begin(bulletBuffer, Camera.format);
 draw_3d_cube(bulletBuffer,
 			x1,

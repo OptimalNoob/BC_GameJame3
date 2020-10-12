@@ -15,11 +15,12 @@ function draw_3d_floor(vbuffer,x1,z1,x2,z2, _y, color){
 	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,color,1);
 };
 
-function draw_3d_wall(vbuffer,x1,y1,x2,y2, _z, color){
-
+function draw_3d_wall(vbuffer,x1,y1,x2,y2,_z, color){
+	//-128,-128,128,128
 	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,0,0,color,1);
 	draw_3d_point(vbuffer, x1, y2, _z, 0,1,0,1,0,color,1);
 	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,1,1,color,1);
+	
 	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,1,1,color,1);
 	draw_3d_point(vbuffer, x2, y1, _z, 0,1,0,0,1,color,1);
 	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,0,0,color,1);
