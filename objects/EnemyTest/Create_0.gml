@@ -8,13 +8,12 @@ enemyBuffer[4] = vertex_create_buffer();
 enemyBuffer[5] = vertex_create_buffer();
 
 matrix = 0
-
 xmov = 300
 ymov = scene.ground - 500
 zmov = 1000
-
-x=xmov
-y=ymov
+depth = 500
+xmov=x
+ymov=y
 
 show_debug_message(string("enemy: ")+ string(x) + ", " + string(y))
 

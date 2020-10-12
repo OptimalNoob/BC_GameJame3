@@ -14,3 +14,8 @@ if(play_title && !audio_is_playing(sndTitle01)){
 };
 
 if(keyboard_check_pressed(ord("R"))) game_restart();
+
+if(keyboard_check_pressed(vk_enter)){
+	audio_stop_all()	
+	room++;
+}

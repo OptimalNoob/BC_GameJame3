@@ -3,21 +3,11 @@
 bulletBuffer = vertex_create_buffer();
 xspawn = 0;
 
-xmov = Player.x
-ymov = Player.y - 64
+xmov = x
+ymov = y - 64
 zmov = 0;
 x = xmov
 y = ymov
-cube_width	= BLOCK_SIZE * 2;
-cube_height	= BLOCK_SIZE * 1;
-cube_depth	= BLOCK_SIZE * 4;
-/*
-x1 = xspawn + 10;
-y1 = y;
-z1 = depth;
-x2 = xspawn -10;
-z2 = depth + 10;
-*/
 
 x1 = -4
 y1 = -4

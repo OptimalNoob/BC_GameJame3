@@ -29,7 +29,6 @@
     {"id":{"name":"Bullet01","path":"objects/Bullet01/Bullet01.yy",},"order":2,},
     {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},"order":0,},
     {"id":{"name":"v_2","path":"sprites/v_2/v_2.yy",},"order":15,},
-    {"id":{"name":"PlayerController","path":"objects/PlayerController/PlayerController.yy",},"order":1,},
     {"id":{"name":"r_3","path":"sprites/r_3/r_3.yy",},"order":13,},
     {"id":{"name":"o_2","path":"sprites/o_2/o_2.yy",},"order":9,},
     {"id":{"name":"sTitle_flash","path":"sprites/sTitle_flash/sTitle_flash.yy",},"order":19,},
@@ -42,6 +41,7 @@
     {"id":{"name":"Cube03","path":"objects/Cube03/Cube03.yy",},"order":5,},
     {"id":{"name":"v_3","path":"sprites/v_3/v_3.yy",},"order":16,},
     {"id":{"name":"sTitle_bg","path":"sprites/sTitle_bg/sTitle_bg.yy",},"order":18,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":6,},
     {"id":{"name":"n_2","path":"sprites/n_2/n_2.yy",},"order":7,},
     {"id":{"name":"TODO","path":"notes/TODO/TODO.yy",},"order":20,},
     {"id":{"name":"o_1","path":"sprites/o_1/o_1.yy",},"order":8,},
@@ -65,8 +65,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"rDebug","path":"rooms/rDebug/rDebug.yy",},
     {"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},
+    {"name":"rDebug","path":"rooms/rDebug/rDebug.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Rooms.yy","order":2,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},

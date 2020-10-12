@@ -33,7 +33,7 @@ looky = camy;
 lookz = 500;
 done = false;
 
-follow = Player;
+follow = oPlayer;
 
 surface_resize(application_surface, 1280, 720);
 window_set_size(1280, 720);
@@ -50,26 +50,3 @@ camera_set_proj_mat(Cam, pm);
 cam_w = camera_get_view_width(Cam);
 cam_h = camera_get_view_height(Cam);
 
-var xx = 0; repeat(5){
-	var _inst = instance_create_layer(x,y,"lyrEntities", Player);
-	with _inst{
-		image_index = xx;
-		depth = 20 + xx;
-		offset = offset_array[xx];
-		vert_off = 16 - (4 * xx);
-	};
-	xx++;
-};
-
-var yy = 0; repeat(6){
-	var _inst = instance_create_layer(x,y,"lyrEntities", Enemy01);
-	with _inst{
-		image_index = yy;
-		depth -= yy;
-		offset = offset_array[yy];
-		vert_off = 0;
-	};
-	yy++;
-};
-
-instance_create_layer(Player.x, Player.y, "lyr3D", PlayerController);
