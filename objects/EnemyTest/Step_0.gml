@@ -16,5 +16,5 @@ if(alarm[0] == -1){
 };
 
 if(ai_decision == 1 && instance_exists(oPlayer)){
-	move_towards_point(oPlayer.x, oPlayer.y, 1);
+	move_towards_point(oPlayer.x, oPlayer.y, chase_speed);
 };

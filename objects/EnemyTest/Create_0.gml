@@ -13,6 +13,7 @@ ymov = y;
 score_points = 10;
 zbound = 16;
 ai_decision = irandom(1);
+chase_speed = 2;
 
 var sSize = 128;
 

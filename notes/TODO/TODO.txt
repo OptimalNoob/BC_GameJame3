@@ -1,6 +1,10 @@
 This is a doc to outline some of the things that still need to be done and general thoughts.
 
--Apply uv coord info on cube function, is tedious so I'm holding off on it for now
+//-Small thought dump on bullets. We don't exactly have the luxury of using the built-in collision detection
+//gamemaker has. That's important becuase it allows us to get the actual instance id of the colliding object.
+//We could attempt to use the standard 2d collision, which would return regardless of depth. But it also
+//gives us an ID, so we could check the zmov coordinate that we know we should have and compare to see if it
+//is a true hit. I really hope that works.
 
 //-Convert enemy into a series of 3D planes to allow for easy 3D collision checking.
 //	-Might use multiple buffers?
@@ -10,18 +14,14 @@ This is a doc to outline some of the things that still need to be done and gener
  
 //-Explore the timeline feature to construct levels. This would allow frame by frame control of spawning.
 
+-Apply uv coord info on cube function, is tedious so I'm holding off on it for now
+
 -Create basic art to convey the "story".
 	-Main character
 	-The antagonists
 	-Some form of supporting cast? For instance, end of level shopkeep?
 	
 -CLEAN UP BUFFERS WHEN NOT IN USE!!!
-
-//-Small thought dump on bullets. We don't exactly have the luxury of using the built-in collision detection
-//gamemaker has. That's important becuase it allows us to get the actual instance id of the colliding object.
-//We could attempt to use the standard 2d collision, which would return regardless of depth. But it also
-//gives us an ID, so we could check the zmov coordinate that we know we should have and compare to see if it
-//is a true hit. I really hope that works.
 
 -Finish Title Screen
 	-Start Game Button

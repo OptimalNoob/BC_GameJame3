@@ -10,6 +10,7 @@ function init_globals(){
 								ds_list_add(EnList, EnemyTest, EnemyTest2);
 	globalvar PlayerPoints;		PlayerPoints = 0;
 	globalvar FloorSpeed;		FloorSpeed = 64;
+	globalvar DebugMode;		DebugMode = false;
 };
 function init_globals_newgame(){
 	PlayerHP = 5;
