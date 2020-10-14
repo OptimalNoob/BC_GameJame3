@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sEnemy_tank01","path":"sprites/sEnemy_tank01/sEnemy_tank01.yy",},"order":3,},
     {"id":{"name":"sndShoot01","path":"sounds/sndShoot01/sndShoot01.yy",},"order":3,},
     {"id":{"name":"r_1","path":"sprites/r_1/r_1.yy",},"order":11,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":1,},
