@@ -14,7 +14,7 @@ z1 = 32;
 x2 = 4;
 y2 = 4;
 z2 = -32;
-vertex_begin(bulletBuffer, Camera.format);
+vertex_begin(bulletBuffer, Camera3D.format);
 draw_3d_cube(bulletBuffer,
 			x1,
 			y1,

@@ -17,7 +17,7 @@ y1 = cube_height;
 x2 = cube_width;
 z2 = cube_depth;;
 
-vertex_begin(CubeBuffer, Camera.format);
+vertex_begin(CubeBuffer, Camera3D.format);
 draw_3d_cube(CubeBuffer,
 			x1,
 			y1,

@@ -14,7 +14,7 @@ z1 = 0;
 x2 = -x1;
 z2 = 4096;
 
-vertex_begin(FloorBuffer, Camera.format);
+vertex_begin(FloorBuffer, Camera3D.format);
 draw_3d_floor(FloorBuffer, x1, z1, x2, z2, y1, c_white)
 
 vertex_end(FloorBuffer);
