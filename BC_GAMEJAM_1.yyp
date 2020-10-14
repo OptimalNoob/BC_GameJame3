@@ -42,6 +42,7 @@
     {"id":{"name":"sEnemy02","path":"sprites/sEnemy02/sEnemy02.yy",},"order":1,},
     {"id":{"name":"LevelController","path":"objects/LevelController/LevelController.yy",},"order":6,},
     {"id":{"name":"enBullet","path":"objects/enBullet/enBullet.yy",},"order":4,},
+    {"id":{"name":"enBulletGround","path":"objects/enBulletGround/enBulletGround.yy",},"order":7,},
     {"id":{"name":"GLOBALS","path":"scripts/GLOBALS/GLOBALS.yy",},"order":1,},
     {"id":{"name":"n_1","path":"sprites/n_1/n_1.yy",},"order":6,},
     {"id":{"name":"Sky","path":"objects/Sky/Sky.yy",},"order":3,},

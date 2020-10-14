@@ -1,1 +1,1 @@
-spawn_random_enemy(2);
+//spawn_random_enemy(2);
