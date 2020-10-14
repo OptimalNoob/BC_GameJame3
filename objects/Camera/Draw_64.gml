@@ -5,7 +5,9 @@ var mouse_gui_y = device_mouse_y_to_gui(0);
 var gui_h = display_get_gui_height();
 var gui_w = display_get_gui_height();
 
-if(DebugMode){
+draw_text(16,0,string(DebugMode) + "," + string(InLevel));
+
+if(DebugMode && InLevel){
 draw_set_color(c_white);
 draw_text(16,16 * 1,		"FPS: "		+ string(fpsOut));
 draw_text(16,16 * 3,		"[Camera]");

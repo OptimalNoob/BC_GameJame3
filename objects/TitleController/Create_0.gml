@@ -1,4 +1,5 @@
 /// @desc
+audio_play_sound(sndWoosh, 10, false);
 play_title = false;
 spawn_delay = false;
 spawn_buttons = false;

@@ -16,6 +16,7 @@
     {"id":{"name":"sBTN_credits","path":"sprites/sBTN_credits/sBTN_credits.yy",},"order":3,},
     {"id":{"name":"Floor2","path":"objects/Floor2/Floor2.yy",},"order":4,},
     {"id":{"name":"Grass","path":"sprites/Grass/Grass.yy",},"order":0,},
+    {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":4,},
     {"id":{"name":"oBTN_moregames","path":"objects/oBTN_moregames/oBTN_moregames.yy",},"order":5,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":0,},
     {"id":{"name":"Initializer","path":"objects/Initializer/Initializer.yy",},"order":2,},
@@ -96,6 +97,7 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rInit","path":"rooms/rInit/rInit.yy",},
     {"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},
     {"name":"rDebug","path":"rooms/rDebug/rDebug.yy",},
     {"name":"rHowTo","path":"rooms/rHowTo/rHowTo.yy",},

@@ -14,7 +14,7 @@ This is a doc to outline some of the things that still need to be done and gener
  
 //-Explore the timeline feature to construct levels. This would allow frame by frame control of spawning.
 
--Apply uv coord info on cube function, is tedious so I'm holding off on it for now
+//-Apply uv coord info on cube function, is tedious so I'm holding off on it for now
 
 -Create basic art to convey the "story".
 	-Main character
@@ -23,13 +23,13 @@ This is a doc to outline some of the things that still need to be done and gener
 	
 -CLEAN UP BUFFERS WHEN NOT IN USE!!!
 
--Finish Title Screen
-	-Start Game Button
-	-How To Play!!!
-	-Options Button?
-		-Adjust Audio Levels
-	-Credits Button
-	-Quit Game
+//-Finish Title Screen
+//	//-Start Game Button
+//	//-How To Play!!!
+//	//-Options Button?
+//	//	-Adjust Audio Levels
+//	//-Credits Button
+//	//-Quit Game
 
 -More Enemy Designs
 
@@ -43,7 +43,7 @@ This is a doc to outline some of the things that still need to be done and gener
 
 -Bosses at end stage
 
--Credits Screen
+//-Credits Screen
 
 -Pester Josh for Music
 

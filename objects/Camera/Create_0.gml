@@ -12,9 +12,7 @@ fpsOut = "";
 
 // Create Game Camera
 Cam = camera_create();
-view_camera[0] = Cam;
-view_enabled[0] = true;
-view_visible[0] = true;
+
 
 // Enable 3D Drawing Functionality
 gpu_set_ztestenable(true);
@@ -51,3 +49,13 @@ alarm[0] = 10;
 cam_w = camera_get_view_width(Cam);
 cam_h = camera_get_view_height(Cam);
 
+// Camera Matrices
+var vm = matrix_build_lookat(camx,camy,camz,lookx,looky,lookz,0,1,0);
+var pm = matrix_build_projection_perspective_fov(60, window_get_width() / window_get_height(), 1, 32000)
+camera_set_view_mat(Cam, vm);
+camera_set_proj_mat(Cam, pm);
+
+view_camera[0] = Cam;
+view_enabled[0] = true;
+view_visible[0] = true;
+camera_apply(Cam);

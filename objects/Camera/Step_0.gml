@@ -36,7 +36,12 @@ if(keyboard_check_pressed(ord("L"))){
 	PlayerHP--;
 };
 
+if(keyboard_check_pressed(ord("D"))){
+	DebugMode = !DebugMode;
+};
+
 if(alarm[1] == -1){
 	alarm[1] = 10;
 	fpsOut = string(fps_real);
 };
+
