@@ -2,8 +2,8 @@
 
 zmov -= FloorSpeed;
 
-if(zmov<-4096-256){
-	zmov = 4096-16-256
+if(zmov < -4096){
+	zmov = Floor.zmov + 4096 - FloorSpeed;
 }
 var matrix = matrix_build(xmov,ymov,zmov,0,0,0,1,1,1)
 matrix_set(matrix_world, matrix)

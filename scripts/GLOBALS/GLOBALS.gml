@@ -6,6 +6,7 @@ function init_globals(){
 	globalvar PlayerHP;			PlayerHP = 5;
 	globalvar PlayerMAXHP;		PlayerMAXHP = 5;
 	globalvar PlayerSpecial;	PlayerSpecial = 0;
+	globalvar FireRate;			FireRate = 10;
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, EnemyTest, EnemyTest2);
 	globalvar PlayerPoints;		PlayerPoints = 0;
