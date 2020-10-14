@@ -16,7 +16,7 @@ if(!LevelEnd){
 
 if(place_meeting_3D(xmov,ymov,zmov, Cube01) && !iframes){
 	iframes = true;
-	alarm[1] = 30;
+	alarm[1] = IFrameDur;
 	PlayerHP--;
 };
 
