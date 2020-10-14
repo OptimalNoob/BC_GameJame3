@@ -36,6 +36,7 @@
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":3,},
     {"id":{"name":"oBTN_credits","path":"objects/oBTN_credits/oBTN_credits.yy",},"order":3,},
     {"id":{"name":"a_1","path":"sprites/a_1/a_1.yy",},"order":0,},
+    {"id":{"name":"GroundEnemy","path":"objects/GroundEnemy/GroundEnemy.yy",},"order":6,},
     {"id":{"name":"rCredits","path":"rooms/rCredits/rCredits.yy",},"order":3,},
     {"id":{"name":"sEnemy02","path":"sprites/sEnemy02/sEnemy02.yy",},"order":1,},
     {"id":{"name":"LevelController","path":"objects/LevelController/LevelController.yy",},"order":6,},

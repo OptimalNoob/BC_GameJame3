@@ -7,6 +7,14 @@ function spawn_random_enemy(_count){
 	};
 };
 
+function spawn_enemy(_id, _x, _y, _z){
+	_inst = instance_create_depth(_x,_y,_z,_id);
+	_inst.xmov = _x
+	_inst.ymov = _y
+	_inst.zmov = _z
+	
+}
+
 function spawn_building(_width, _height, _depth, _id, _x, _y, _tex){
 	_inst = instance_create_layer(0,0,"lyr3D",_id);
 	_inst.cube_width = BLOCK_SIZE * _width;
@@ -16,3 +24,4 @@ function spawn_building(_width, _height, _depth, _id, _x, _y, _tex){
 	_inst.ymov = _y == -1 ? scene.ground - _inst.cube_height : _y;
 	_inst.tex = _tex;
 };
+
