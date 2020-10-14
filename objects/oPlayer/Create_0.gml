@@ -17,6 +17,8 @@ depth = 0;
 offset = 1.2;
 vert_off = 16;
 
+iframes = false;
+
 zbound = 16;
 var sSize = 128;
 

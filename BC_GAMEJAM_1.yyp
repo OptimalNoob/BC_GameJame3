@@ -44,6 +44,7 @@
     {"id":{"name":"n_1","path":"sprites/n_1/n_1.yy",},"order":6,},
     {"id":{"name":"Sky","path":"objects/Sky/Sky.yy",},"order":3,},
     {"id":{"name":"sSky01","path":"sprites/sSky01/sSky01.yy",},"order":2,},
+    {"id":{"name":"sBuildingMask","path":"sprites/sBuildingMask/sBuildingMask.yy",},"order":8,},
     {"id":{"name":"r_2","path":"sprites/r_2/r_2.yy",},"order":12,},
     {"id":{"name":"sBuildling_test","path":"sprites/sBuildling_test/sBuildling_test.yy",},"order":3,},
     {"id":{"name":"a_3","path":"sprites/a_3/a_3.yy",},"order":2,},

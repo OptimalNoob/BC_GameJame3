@@ -1,14 +1,14 @@
 /// @desc
 CubeBuffer = vertex_create_buffer();
 
-cube_width	= BLOCK_SIZE * 4;
-cube_height	= BLOCK_SIZE * 6;
-cube_depth	= BLOCK_SIZE * 2;
+mask_index = sBuildingMask;
+cube_width	= 0;
+cube_height	= 0;
+cube_depth	= 0;
 
 xmov = 0;
-ymov = scene.ground - cube_height;
+ymov = 0;
 zmov = 5120;
 tex = sBuildling_test;
-
 
 alarm[0] = 2;

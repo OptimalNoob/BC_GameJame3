@@ -19,6 +19,10 @@ if(keyboard_check_pressed(vk_escape)){
 	game_end();
 }
 
+if(keyboard_check_pressed(vk_enter)){
+	room_goto(rDebug);
+}
+
 if(spawn_buttons){
 	if(!instance_exists(oBTN_startgame)){
 		for(i = 0;i<4;i++){

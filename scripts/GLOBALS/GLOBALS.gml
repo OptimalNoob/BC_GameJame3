@@ -10,7 +10,7 @@ function init_globals(){
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, EnemyTest, EnemyTest2);
 	globalvar PlayerPoints;		PlayerPoints = 0;
-	globalvar FloorSpeed;		FloorSpeed = 50;
+	globalvar FloorSpeed;		FloorSpeed = 10;
 	globalvar DebugMode;		DebugMode = false;
 	
 	globalvar LevelEnd;			LevelEnd = false;

@@ -14,6 +14,12 @@ if(!LevelEnd){
 	if(depth > 10000) room_goto(rTitle);
 };
 
+if(place_meeting_3D(xmov,ymov,zmov, Cube01) && !iframes){
+	iframes = true;
+	alarm[1] = 30;
+	PlayerHP--;
+};
+
 x = xmov;
 y = ymov;
 zmov = depth;
