@@ -1,4 +1,5 @@
 This is a doc to outline some of the things that still need to be done and general thoughts.
+[Sorted by Priority High to Low (Completed at Top)]
 
 //-Small thought dump on bullets. We don't exactly have the luxury of using the built-in collision detection
 //gamemaker has. That's important becuase it allows us to get the actual instance id of the colliding object.
@@ -16,13 +17,6 @@ This is a doc to outline some of the things that still need to be done and gener
 
 //-Apply uv coord info on cube function, is tedious so I'm holding off on it for now
 
--Create basic art to convey the "story".
-	-Main character
-	-The antagonists
-	-Some form of supporting cast? For instance, end of level shopkeep?
-	
--CLEAN UP BUFFERS WHEN NOT IN USE!!!
-
 //-Finish Title Screen
 //	//-Start Game Button
 //	//-How To Play!!!
@@ -31,27 +25,45 @@ This is a doc to outline some of the things that still need to be done and gener
 //	//-Credits Button
 //	//-Quit Game
 
--More Enemy Designs
+//-Credits Screen
 
--Ground enemies
+//-Ground enemies
 
--Shield System
+-CLEAN UP BUFFERS WHEN NOT IN USE!!!
 
 -Shop System? (Space Station?)
 
+-Opening Cutscene?
+	-Animated? Comic Style? Still Images?
+	-Skip Intro
+
 -Level Selection Screen / Progression
+
+-Create basic art to convey the "story".
+	-Main character
+	-The antagonists
+	-Some form of supporting cast? For instance, end of level shopkeep?
+	
+
+
+-More Enemy Designs
+
+
+
+-Shield System
+
+
+
 
 -Powerups/Pickups?
 
 -Bosses at end stage
 
-//-Credits Screen
+
 
 -Pester Josh for Music
 
--Opening Cutscene?
-	-Animated? Comic Style? Still Images?
-	-Skip Intro
+
 
 -World Building / More Levels
 
