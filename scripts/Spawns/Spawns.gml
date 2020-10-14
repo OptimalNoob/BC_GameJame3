@@ -6,3 +6,13 @@ function spawn_random_enemy(_count){
 		var _inst = instance_create_layer(_x,_y,"lyr3D",EnList[| _sel]);
 	};
 };
+
+function spawn_building(_width, _height, _depth, _id, _x, _y, _tex){
+	_inst = instance_create_layer(0,0,"lyr3D",_id);
+	_inst.cube_width = BLOCK_SIZE * _width;
+	_inst.cube_height = BLOCK_SIZE * _height;
+	_inst.cube_depth = BLOCK_SIZE * _depth;
+	_inst.xmov = _x;
+	_inst.ymov = _y == -1 ? scene.ground - _inst.cube_height : _y;
+	_inst.tex = _tex;
+};

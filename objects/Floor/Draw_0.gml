@@ -1,7 +1,7 @@
 /// @desc
 zmov -= FloorSpeed;
 
-if(zmov < -4096){
+if(zmov < -4200){
 	zmov = Floor2.zmov + 4096 - FloorSpeed;
 }
 var matrix = matrix_build(xmov,ymov,zmov,0,0,0,1,1,1)

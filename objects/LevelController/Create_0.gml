@@ -3,10 +3,7 @@
 // Timeline Setting
 switch(room){
 	case rDebug:
-		timeline_index = tlLevel1;
-		timeline_position = 0;
-		timeline_running = true;
-		timeline_loop = false;
+		timeline_set(tlLevel1, 0, false);
 		load_level(rDebug);
 	break;
 	default: break;
