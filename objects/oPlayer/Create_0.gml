@@ -22,7 +22,7 @@ var sSize = 128;
 
 for(i=0;i<5;i++){
 	vertex_begin(playerBuffer[i], Camera.format);
-	draw_3d_wall(playerBuffer[i], -sSize,-sSize,sSize,sSize, 0, c_white)
+	draw_3d_wall(playerBuffer[i], -sSize,-sSize,sSize,sSize, 0, 1,1,c_white)
 	vertex_end(playerBuffer[i]);
 }
 

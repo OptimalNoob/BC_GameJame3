@@ -8,7 +8,7 @@ cube_height	= BLOCK_SIZE * 1;
 cube_depth	= BLOCK_SIZE * 4;
 
 
-x1 = -4096*2;
+x1 = -4096 * 2;
 y1 = scene.ground;
 z1 = 0;
 x2 = -x1;

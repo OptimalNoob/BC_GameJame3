@@ -9,5 +9,5 @@ z = 4096
 
 
 vertex_begin(skyBuffer, Camera.format);
-draw_3d_wall(skyBuffer, x1, y1, x2, y2, z, c_white);
+draw_3d_wall(skyBuffer, x1, y1, x2, y2, z, 1.6,1,c_white);
 vertex_end(skyBuffer);

@@ -7,30 +7,31 @@ function draw_3d_point(_buf, _x,_y,_z,_normx, _normy, _normz, _u, _v, _color, _a
 
 function draw_3d_floor(vbuffer,x1,z1,x2,z2, _y, color){
 
-	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,color,1);
+	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,1,1,color,1);
 	draw_3d_point(vbuffer, x1, _y, z2, 0,1,0,1,0,color,1);
-	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,color,1);
-	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,1,1,color,1);
+	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,0,0,color,1);
+	
+	draw_3d_point(vbuffer, x2, _y, z2, 0,1,0,0,0,color,1);
 	draw_3d_point(vbuffer, x2, _y, z1, 0,1,0,0,1,color,1);
-	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,0,0,color,1);
+	draw_3d_point(vbuffer, x1, _y, z1, 0,1,0,1,1,color,1);
 };
 
-function draw_3d_wall(vbuffer,x1,y1,x2,y2,_z, color){
-	//-128,-128,128,128
-	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,1,1,color,1);
-	draw_3d_point(vbuffer, x1, y2, _z, 0,1,0,1,0,color,1);
+function draw_3d_wall(vbuffer,x1,y1,x2,y2,_z,_u,_v,color){
+	
+	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,_u,_v,color,1);
+	draw_3d_point(vbuffer, x1, y2, _z, 0,1,0,_u,0,color,1);
 	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,0,0,color,1);
 	
 	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,0,0,color,1);
-	draw_3d_point(vbuffer, x2, y1, _z, 0,1,0,0,1,color,1);
-	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,1,1,color,1);
+	draw_3d_point(vbuffer, x2, y1, _z, 0,1,0,0,_v,color,1);
+	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,_u,_v,color,1);
 };
 
 
 function draw_3d_cube(buf, x1,y1,z1,x2,y2,z2,_r,_g,_b){
 	c1 = make_color_rgb(_r,_g,_b);
-	c2 = make_color_rgb(_r-20,_g-20,_b-20);
-	c3 = make_color_rgb(_r-50,_g-50,_b-50);
+	c2 = make_color_rgb(_r-40,_g-40,_b-40);
+	c3 = make_color_rgb(_r-80,_g-80,_b-80);
 	
 	// Front Side
 	draw_3d_point(buf, x1, y1, z1, 0,0,1,1,1,c1,1);

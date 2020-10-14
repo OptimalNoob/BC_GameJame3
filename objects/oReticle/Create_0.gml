@@ -9,5 +9,5 @@ zmov = 1000;
 var sSize = 32;
 
 vertex_begin(reticleBuffer, Camera.format);
-draw_3d_wall(reticleBuffer, -sSize,-sSize,sSize,sSize, 0, c_white)
+draw_3d_wall(reticleBuffer, -sSize,-sSize,sSize,sSize, 0, 1,1,c_white)
 vertex_end(reticleBuffer);
