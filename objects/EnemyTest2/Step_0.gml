@@ -9,8 +9,9 @@ xmov = x;
 ymov = y;
 zmov = depth;
 
+//----------Shooting Player
 if(alarm[0] == -1){
-	alarm[0] = 40;
+	alarm[0] = irandom_range(40,120);
 	var _inst = instance_create_layer(x,y,"lyr3D",enBullet);
 	_inst.zmov = zmov;
 };

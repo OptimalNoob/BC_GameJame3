@@ -7,8 +7,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "ag_sfx",
+    "path": "audiogroups/ag_sfx",
   },
   "soundFile": "sndEngine01.wav",
   "duration": 1.089739,

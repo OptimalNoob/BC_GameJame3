@@ -1,5 +1,7 @@
 /// @desc
 play_title = false;
+spawn_delay = false;
+spawn_buttons = false;
 flash_alph = 1;
 row_1_start		= -500;
 row_1_end		= 48;
@@ -50,3 +52,13 @@ let_r[2] = r_3;
 let_i[0] = i_1;
 let_i[1] = i_2;
 let_i[2] = i_3;
+
+title_but[0] = oBTN_startgame;
+title_but[1] = oBTN_howto;
+title_but[2] = oBTN_credits;
+title_but[3] = oBTN_quit;
+
+but_y[0] = 336;
+but_y[1] = 450;
+but_y[2] = 545;
+but_y[3] = 644;

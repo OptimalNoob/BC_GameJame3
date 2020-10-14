@@ -17,13 +17,13 @@ function draw_3d_floor(vbuffer,x1,z1,x2,z2, _y, color){
 
 function draw_3d_wall(vbuffer,x1,y1,x2,y2,_z, color){
 	//-128,-128,128,128
-	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,0,0,color,1);
+	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,1,1,color,1);
 	draw_3d_point(vbuffer, x1, y2, _z, 0,1,0,1,0,color,1);
-	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,1,1,color,1);
+	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,0,0,color,1);
 	
-	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,1,1,color,1);
+	draw_3d_point(vbuffer, x2, y2, _z, 0,1,0,0,0,color,1);
 	draw_3d_point(vbuffer, x2, y1, _z, 0,1,0,0,1,color,1);
-	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,0,0,color,1);
+	draw_3d_point(vbuffer, x1, y1, _z, 0,1,0,1,1,color,1);
 };
 
 
@@ -33,56 +33,56 @@ function draw_3d_cube(buf, x1,y1,z1,x2,y2,z2,_r,_g,_b){
 	c3 = make_color_rgb(_r-50,_g-50,_b-50);
 	
 	// Front Side
-	draw_3d_point(buf, x1, y1, z1, 0,0,1,0,0,c1,1);
-	draw_3d_point(buf, x1, y2, z1, 0,0,1,0,0,c1,1);
+	draw_3d_point(buf, x1, y1, z1, 0,0,1,1,1,c1,1);
+	draw_3d_point(buf, x1, y2, z1, 0,0,1,1,0,c1,1);
 	draw_3d_point(buf, x2, y2, z1, 0,0,1,0,0,c1,1);
 
 	draw_3d_point(buf, x2, y2, z1, 0,0,1,0,0,c1,1);
-	draw_3d_point(buf, x2, y1, z1, 0,0,1,0,0,c1,1);
-	draw_3d_point(buf, x1, y1, z1, 0,0,1,0,0,c1,1);
+	draw_3d_point(buf, x2, y1, z1, 0,0,1,0,1,c1,1);
+	draw_3d_point(buf, x1, y1, z1, 0,0,1,1,1,c1,1);
 	
 	// Left Side
-	draw_3d_point(buf, x1, y1, z1, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x1, y2, z1, 0,0,1,0,0,c2,1);
+	draw_3d_point(buf, x1, y1, z1, 0,0,1,1,1,c2,1);
+	draw_3d_point(buf, x1, y2, z1, 0,0,1,1,0,c2,1);
 	draw_3d_point(buf, x1, y2, z2, 0,0,1,0,0,c2,1);
 				  
 	draw_3d_point(buf, x1, y2, z2, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x1, y1, z2, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x1, y1, z1, 0,0,1,0,0,c2,1);
+	draw_3d_point(buf, x1, y1, z2, 0,0,1,0,1,c2,1);
+	draw_3d_point(buf, x1, y1, z1, 0,0,1,1,1,c2,1);
 	
 	// Back Side
-	draw_3d_point(buf, x1, y1, z2, 0,0,1,0,0,c3,1);
-	draw_3d_point(buf, x1, y2, z2, 0,0,1,0,0,c3,1);
+	draw_3d_point(buf, x1, y1, z2, 0,0,1,1,1,c3,1);
+	draw_3d_point(buf, x1, y2, z2, 0,0,1,1,0,c3,1);
 	draw_3d_point(buf, x2, y2, z2, 0,0,1,0,0,c3,1);
 				  
 	draw_3d_point(buf, x2, y2, z2, 0,0,1,0,0,c3,1);
-	draw_3d_point(buf, x2, y1, z2, 0,0,1,0,0,c3,1);
-	draw_3d_point(buf, x1, y1, z2, 0,0,1,0,0,c3,1);
+	draw_3d_point(buf, x2, y1, z2, 0,0,1,0,1,c3,1);
+	draw_3d_point(buf, x1, y1, z2, 0,0,1,1,1,c3,1);
 	
 	// Right Side
-	draw_3d_point(buf, x2, y1, z2, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x2, y2, z2, 0,0,1,0,0,c2,1);
+	draw_3d_point(buf, x2, y1, z2, 0,0,1,1,1,c2,1);
+	draw_3d_point(buf, x2, y2, z2, 0,0,1,1,0,c2,1);
 	draw_3d_point(buf, x2, y2, z1, 0,0,1,0,0,c2,1);
 										 
 	draw_3d_point(buf, x2, y2, z1, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x2, y1, z1, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x2, y1, z2, 0,0,1,0,0,c2,1);
+	draw_3d_point(buf, x2, y1, z1, 0,0,1,0,1,c2,1);
+	draw_3d_point(buf, x2, y1, z2, 0,0,1,1,1,c2,1);
 	
 	// Top Side
-	draw_3d_point(buf, x1, y2, z1, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x1, y2, z2, 0,0,1,0,0,c2,1);
+	draw_3d_point(buf, x1, y2, z1, 0,0,1,1,1,c2,1);
+	draw_3d_point(buf, x1, y2, z2, 0,0,1,1,0,c2,1);
 	draw_3d_point(buf, x2, y2, z2, 0,0,1,0,0,c2,1);
 										 
 	draw_3d_point(buf, x2, y2, z2, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x2, y2, z1, 0,0,1,0,0,c2,1);
-	draw_3d_point(buf, x1, y2, z1, 0,0,1,0,0,c2,1);
+	draw_3d_point(buf, x2, y2, z1, 0,0,1,0,1,c2,1);
+	draw_3d_point(buf, x1, y2, z1, 0,0,1,1,1,c2,1);
 												 
 	// Bottom Side								 
-	draw_3d_point(buf, x1, y1, z1, 0,0,1,0,0,c3,1);
-	draw_3d_point(buf, x1, y1, z2, 0,0,1,0,0,c3,1);
+	draw_3d_point(buf, x1, y1, z1, 0,0,1,1,1,c3,1);
+	draw_3d_point(buf, x1, y1, z2, 0,0,1,1,0,c3,1);
 	draw_3d_point(buf, x2, y1, z2, 0,0,1,0,0,c3,1);
 										 
 	draw_3d_point(buf, x2, y1, z2, 0,0,1,0,0,c3,1);
-	draw_3d_point(buf, x2, y1, z1, 0,0,1,0,0,c3,1);
-	draw_3d_point(buf, x1, y1, z1, 0,0,1,0,0,c3,1);
+	draw_3d_point(buf, x2, y1, z1, 0,0,1,0,1,c3,1);
+	draw_3d_point(buf, x1, y1, z1, 0,0,1,1,1,c3,1);
 };

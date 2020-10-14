@@ -1,9 +1,13 @@
 /// @desc
-playerBuffer[0] = vertex_create_buffer();
-playerBuffer[1] = vertex_create_buffer();
-playerBuffer[2] = vertex_create_buffer();
-playerBuffer[3] = vertex_create_buffer();
-playerBuffer[4] = vertex_create_buffer();
+
+for(i=0;i<5;i++){
+	playerBuffer[i] = vertex_create_buffer();
+}
+pLerp[0] = 0.001
+pLerp[1] = 0.005
+pLerp[2] = 0.01
+pLerp[3] = 0.015
+pLerp[4] = 0.02
 mask_index = sBullet;
 matrix = 0;
 xmov = x;

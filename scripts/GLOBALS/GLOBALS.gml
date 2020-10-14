@@ -11,6 +11,9 @@ function init_globals(){
 	globalvar PlayerPoints;		PlayerPoints = 0;
 	globalvar FloorSpeed;		FloorSpeed = 64;
 	globalvar DebugMode;		DebugMode = false;
+	
+	globalvar LevelEnd;			LevelEnd = false;
+	globalvar InLevel;			InLevel = false;
 };
 function init_globals_newgame(){
 	PlayerHP = 5;

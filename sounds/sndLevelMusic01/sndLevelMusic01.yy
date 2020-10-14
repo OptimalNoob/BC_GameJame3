@@ -7,8 +7,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "ag_music",
+    "path": "audiogroups/ag_music",
   },
   "soundFile": "sndLevelMusic01.mp3",
   "duration": 321.833557,

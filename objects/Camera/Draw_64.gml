@@ -1,9 +1,12 @@
-/// @desc
-draw_set_color(c_white);
+/// @desc Debug Drawing
+
 var mouse_gui_x = device_mouse_x_to_gui(0);
 var mouse_gui_y = device_mouse_y_to_gui(0);
 var gui_h = display_get_gui_height();
 var gui_w = display_get_gui_height();
+
+if(DebugMode){
+draw_set_color(c_white);
 draw_text(16,16 * 1,		"FPS: "		+ string(fpsOut));
 draw_text(16,16 * 3,		"[Camera]");
 draw_text(16,16 * 4,		"X: "		+ string(camx));
@@ -28,12 +31,11 @@ if(instance_exists(Bullet01)){
 	draw_text(16,16 * 20, "Bullet Count: " + string(instance_number(Bullet01)));
 };
 
-//if(instance_exists(Floor)){
-//	draw_text(16,16 * 21, "Bullet Count: " + string(instance_number(Floor)));
-//	draw_text(16,16 * 22, "Bullet Count: " + string(instance_number(Floor2)));
-//};
 draw_text(16,16 * 22, "Score: " + string(PlayerPoints));
+draw_text(16,16 * 23, "Player Z: " + string(oPlayer.depth));
+};
 
+if(InLevel){
 #region HelthBar
 var hb_w = 200;
 var hb_h = 40;
@@ -61,3 +63,4 @@ draw_rectangle(
 			gui_h - hb_h - 16 + hb_h - 4,
 			false);
 #endregion
+};
