@@ -31,11 +31,17 @@ This is a doc to outline some of the things that still need to be done and gener
 
 -CLEAN UP BUFFERS WHEN NOT IN USE!!!
 
+-End Level Screen (Get Money, Fuck Bitches)
+
 -Shop System? (Space Station?)
+
+-World Building / More Levels
 
 -Opening Cutscene?
 	-Animated? Comic Style? Still Images?
 	-Skip Intro
+
+-End Cutscene / Roll Credits
 
 -Level Selection Screen / Progression
 
@@ -43,32 +49,17 @@ This is a doc to outline some of the things that still need to be done and gener
 	-Main character
 	-The antagonists
 	-Some form of supporting cast? For instance, end of level shopkeep?
-	
-
-
--More Enemy Designs
-
-
-
--Shield System
-
-
-
 
 -Powerups/Pickups?
 
--Bosses at end stage
-
-
+-More Enemy Designs
 
 -Pester Josh for Music
 
+-Bosses at end stage
 
+-Shield System
 
--World Building / More Levels
+-Powerups/Pickups?
 
--End Level Screen (Get Money, Fuck Bitches)
-
--End Cutscene / Roll Credits
-
----Polish / Flush
+---Polish / F l u s h
