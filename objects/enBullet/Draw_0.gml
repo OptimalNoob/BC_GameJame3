@@ -2,7 +2,7 @@
 
 var matrix = matrix_build(xmov,ymov,zmov,0,0,0,1,1,1)
 matrix_set(matrix_world, matrix)
-vertex_submit(bulletBuffer, pr_trianglelist, -1)
+vertex_submit(bulletBuffer, pr_trianglelist, sprite_get_texture(sBullet_enemy,0))
 matrix_set(matrix_world, matrix_build_identity())
 
 if(DebugMode){
