@@ -9,11 +9,15 @@ function init_globals(){
 	globalvar PlayerSpecial;	PlayerSpecial = 0;
 	globalvar FireRate;			FireRate = 10;
 	globalvar IFrameDur;		IFrameDur = 30;
+	
+	globalvar PlayerTotalScore;	PlayerTotalScore = 0;
+	globalvar PlayerPoints;		PlayerPoints = 0;
+	globalvar PlayerKills;		PlayerKills = 0;
 	globalvar PlayerMoney;		PlayerMoney = 0;
+	
 	
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, EnemyTest, EnemyTest2);
-	globalvar PlayerPoints;		PlayerPoints = 0;
 	globalvar FloorSpeed;		FloorSpeed = 54;
 	globalvar DebugMode;		DebugMode = false;
 	

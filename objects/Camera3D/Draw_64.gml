@@ -38,6 +38,9 @@ draw_text(16,16 * 23, "Player Z: " + string(oPlayer.depth));
 };
 
 if(InLevel){
+draw_text(16,16 * 1, "Score: " + string(PlayerPoints));
+draw_text(16,16 * 2, "Kills: " + string(PlayerKills));
+
 #region HelthBar
 var hb_w = 200;
 var hb_h = 40;

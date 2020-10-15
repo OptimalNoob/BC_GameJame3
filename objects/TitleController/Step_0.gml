@@ -10,7 +10,7 @@ if(row_1_y > row_1_end - 0.5){
 };
 
 if(play_title && !audio_is_playing(sndTitle01)){
-	//audio_play_sound(sndTitle01, 10, 1);
+	audio_play_sound(sndTitle01, 10, 1);
 };
 
 if(keyboard_check_pressed(ord("R"))) game_restart();
@@ -20,6 +20,7 @@ if(keyboard_check_pressed(vk_escape)){
 }
 
 if(keyboard_check_pressed(vk_enter)){
+	audio_stop_all();
 	room_goto(rDebug);
 }
 

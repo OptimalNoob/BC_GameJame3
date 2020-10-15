@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Title",
-    "path": "folders/System Objects/Title.yy",
+    "name": "System Objects",
+    "path": "folders/System Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "TitleController",
