@@ -13,13 +13,13 @@ if(!LevelEnd){
 	};
 }else{
 	if(depth > 10000){
-		audio_stop_all();
+		//audio_stop_all();
 		room_goto(rEndLevel);
 	};
 };
 
 if(keyboard_check_pressed(ord("P"))){
-	audio_stop_all();
+	//audio_stop_all();
 	room_goto(rEndLevel);
 };
 

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.8,
+  "volume": 0.6,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/ag_sfx",
   },
   "soundFile": "sndShoot01.wav",
-  "duration": 0.636338,
+  "duration": 1.41271,
   "parent": {
     "name": "SFX",
     "path": "folders/SFX.yy",

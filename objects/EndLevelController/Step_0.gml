@@ -21,3 +21,5 @@ if(!anim_header && del_1){
 	kills_out = min(PlayerKills, ++kills_out);
 	money_out = floor((score_out * kills_out) * (hperc_out / 100));
 };
+
+audio_sound_gain(sndLevelMusic01, 0, 180);

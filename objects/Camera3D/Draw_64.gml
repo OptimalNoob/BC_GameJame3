@@ -42,8 +42,12 @@ draw_text(16,16 * 1, "Score: " + string(PlayerPoints));
 draw_text(16,16 * 2, "Kills: " + string(PlayerKills));
 
 #region HelthBar
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);
+draw_set_font(fntDefault);
 var hb_w = 200;
 var hb_h = 40;
+
 draw_set_color(c_black);
 draw_rectangle(
 			16,
@@ -52,7 +56,7 @@ draw_rectangle(
 			gui_h - hb_h - 10,
 			false);
 draw_set_color(c_white);
-draw_text(24, gui_h - hb_h - 38, "Health");
+draw_text(32, gui_h - hb_h - 34, "HULL");
 draw_set_color(c_black);
 draw_rectangle(
 			16,
