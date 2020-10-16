@@ -12,8 +12,15 @@ if(!LevelEnd){
 		game_restart();
 	};
 }else{
+	if(depth > 10000){
+		audio_stop_all();
+		room_goto(rEndLevel);
+	};
+};
+
+if(keyboard_check_pressed(ord("P"))){
 	audio_stop_all();
-	if(depth > 10000) room_goto(rEndLevel);
+	room_goto(rEndLevel);
 };
 
 if(place_meeting_3D(xmov,ymov,zmov, Cube01) && !iframes){

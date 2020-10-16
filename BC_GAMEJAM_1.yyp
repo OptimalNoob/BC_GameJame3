@@ -24,6 +24,7 @@
     {"id":{"name":"Initializer","path":"objects/Initializer/Initializer.yy",},"order":1,},
     {"id":{"name":"sndExplode01","path":"sounds/sndExplode01/sndExplode01.yy",},"order":5,},
     {"id":{"name":"HowToController","path":"objects/HowToController/HowToController.yy",},"order":6,},
+    {"id":{"name":"fntEndLevel","path":"fonts/fntEndLevel/fntEndLevel.yy",},"order":3,},
     {"id":{"name":"oBTN_startgame","path":"objects/oBTN_startgame/oBTN_startgame.yy",},"order":1,},
     {"id":{"name":"Collision3D","path":"scripts/Collision3D/Collision3D.yy",},"order":4,},
     {"id":{"name":"sReticle","path":"sprites/sReticle/sReticle.yy",},"order":1,},

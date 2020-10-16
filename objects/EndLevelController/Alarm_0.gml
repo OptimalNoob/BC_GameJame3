@@ -1,2 +1,2 @@
 /// @desc
-delay = true;
+del_1 = true;
