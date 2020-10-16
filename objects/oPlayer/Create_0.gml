@@ -16,6 +16,7 @@ zmov = 0;
 depth = 0;
 offset = 1.2;
 vert_off = 16;
+fade_alph = 0;
 
 iframes = false;
 
