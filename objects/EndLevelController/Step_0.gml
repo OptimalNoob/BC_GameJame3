@@ -32,7 +32,7 @@ if(!anim_header && del_1){
 
 if(draw_cont && mouse_check_button_pressed(mb_left)){
 	audio_stop_all();
-	room_goto(rTitle);
+	room_goto(rShop);
 };
 
 audio_sound_gain(sndLevelMusic01, 0, 500);
