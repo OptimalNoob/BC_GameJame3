@@ -15,3 +15,6 @@ header_rbound = 900;
 result_x = 540;
 result_y = 300;
 result_pad = 24;
+count_delay = false;
+draw_cont = false;
+alarm[2] = -1;

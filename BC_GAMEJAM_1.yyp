@@ -79,6 +79,7 @@
     {"id":{"name":"Cube01","path":"objects/Cube01/Cube01.yy",},"order":5,},
     {"id":{"name":"v_3","path":"sprites/v_3/v_3.yy",},"order":16,},
     {"id":{"name":"fntCredits2","path":"fonts/fntCredits2/fntCredits2.yy",},"order":2,},
+    {"id":{"name":"sndCounter","path":"sounds/sndCounter/sndCounter.yy",},"order":7,},
     {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},"order":1,},
     {"id":{"name":"sTitle_bg","path":"sprites/sTitle_bg/sTitle_bg.yy",},"order":18,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},

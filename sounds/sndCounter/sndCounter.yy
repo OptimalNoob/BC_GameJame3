@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "ag_sfx",
     "path": "audiogroups/ag_sfx",
   },
-  "soundFile": "sndEngine01.wav",
-  "duration": 1.089739,
+  "soundFile": "sndCounter.wav",
+  "duration": 0.16754,
   "parent": {
     "name": "SFX",
     "path": "folders/SFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndEngine01",
+  "name": "sndCounter",
   "tags": [],
   "resourceType": "GMSound",
 }

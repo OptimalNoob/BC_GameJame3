@@ -29,6 +29,9 @@ This is a doc to outline some of the things that still need to be done and gener
 
 //-Ground enemies
 
+******************** EVERYTHING ABOVE THIS LINE IS COMPLETED ********************
+
+
 -CLEAN UP BUFFERS WHEN NOT IN USE!!!
 
 -End Level Screen (Get Money, Fuck Bitches)
@@ -43,7 +46,14 @@ This is a doc to outline some of the things that still need to be done and gener
 
 -End Cutscene / Roll Credits
 
+
+******************** EVERYTHING ABOVE THIS LINE IS 'The last 5%' ********************
+
+-Bosses at end stage
+
 -Level Selection Screen / Progression
+
+-Pester Josh for Music
 
 -Create basic art to convey the "story".
 	-Main character
@@ -54,12 +64,8 @@ This is a doc to outline some of the things that still need to be done and gener
 
 -More Enemy Designs
 
--Pester Josh for Music
-
--Bosses at end stage
-
 -Shield System
 
 -Powerups/Pickups?
 
----Polish / F l u s h
+--- Polish / F l u s h

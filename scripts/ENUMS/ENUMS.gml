@@ -1,5 +1,5 @@
 enum scene{
-	ground = 768
+	ground = 800
 };
 
 enum scheme{

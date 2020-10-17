@@ -21,7 +21,7 @@ fade_alph = 0;
 iframes = false;
 
 zbound = 16;
-var sSize = 128;
+var sSize = 196;
 
 for(i=0;i<5;i++){
 	vertex_begin(playerBuffer[i], Camera3D.format);

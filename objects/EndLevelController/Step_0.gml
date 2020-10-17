@@ -16,10 +16,23 @@ if(!anim_header && !del_1 && alarm[0] == -1){
 };
 
 if(!anim_header && del_1){
+	if(!count_delay){
+		count_delay = true;
+		alarm[1] = 300;
+	};
 	score_out = min(PlayerPoints, score_out + 1);
 	hperc_out = min((PlayerHP / PlayerMAXHP) * 100, ++hperc_out);
 	kills_out = min(PlayerKills, ++kills_out);
 	money_out = floor((score_out * kills_out) * (hperc_out / 100));
+	if(score_out != PlayerPoints && alarm[2] == -1){
+		alarm[2] = 8;
+		audio_play_sound(sndCounter, 10, false);
+	};
 };
 
-audio_sound_gain(sndLevelMusic01, 0, 180);
+if(draw_cont && mouse_check_button_pressed(mb_left)){
+	audio_stop_all();
+	room_goto(rTitle);
+};
+
+audio_sound_gain(sndLevelMusic01, 0, 500);
