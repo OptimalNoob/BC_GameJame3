@@ -3,6 +3,7 @@ function init_globals(){
 	globalvar StackOffset;		StackOffset = 0.02;
 	globalvar PlayerScale;		PlayerScale = 2;
 	globalvar ControlScheme;	ControlScheme = scheme.mouse
+	globalvar NextLevel;		NextLevel = 0;
 	
 	
 	/* SHOP AFFECTED VARIABLES */
@@ -31,7 +32,7 @@ function init_globals(){
 	globalvar PlayerTotalScore;	PlayerTotalScore = 0;
 	globalvar PlayerPoints;		PlayerPoints = 0;
 	globalvar PlayerKills;		PlayerKills = 0;
-	globalvar PlayerMoney;		PlayerMoney = 2000;
+	globalvar PlayerMoney;		PlayerMoney = 0;
 	
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, EnemyTest, EnemyTest2);

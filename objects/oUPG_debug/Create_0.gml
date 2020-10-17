@@ -3,3 +3,6 @@
 upgrade = 0;
 index = 0;
 price = 9999;
+
+linX = 0;
+linY = 0;

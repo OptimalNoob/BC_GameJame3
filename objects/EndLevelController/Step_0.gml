@@ -31,6 +31,7 @@ if(!anim_header && del_1){
 };
 
 if(draw_cont && mouse_check_button_pressed(mb_left)){
+	PlayerMoney += money_out;
 	audio_stop_all();
 	room_goto(rShop);
 };
