@@ -1,7 +1,7 @@
 /// @desc
 var _tex = 0;
 switch(room){
-	case rDebug:
+	case rDebug: case rLevel1:
 		_tex = sSky01
 	break;
 	default: break;

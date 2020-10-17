@@ -7,8 +7,16 @@ switch(room){
 		LevelEnd = false;
 		NextLevel = rTitle;
 		
-		timeline_set(tlLevel1, 0, false);
+		timeline_set(tlDebug, 0, false);
 		load_level(rDebug);
+	break;
+	case rLevel1:
+		InLevel = true;
+		LevelEnd = false;
+		NextLevel = rTitle;
+		
+		timeline_set(tlLevel1, 0, false);
+		load_level(rLevel1);
 	break;
 	default: break;
 };
