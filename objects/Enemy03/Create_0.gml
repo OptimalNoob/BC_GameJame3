@@ -15,7 +15,7 @@ zbound = 32;
 ai_decision = 0;
 chase_speed = 2;
 
-var sSize = 128;
+var sSize = 256;
 
 for(i=0;i<5;i++){
 	vertex_begin(enemyBuffer[i], Camera3D.format);
