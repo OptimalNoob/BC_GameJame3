@@ -15,4 +15,6 @@ draw_text(24,300,"GUN:");
 draw_text(24,440,"SPECIAL:");
 draw_text(24,580,"SHIELD:");
 
+draw_text(640, 8, "Money: " + string(PlayerMoney))
+
 draw_set_valign(fa_top);

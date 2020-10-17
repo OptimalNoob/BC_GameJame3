@@ -10,23 +10,28 @@ function init_globals(){
 	globalvar upg_Spec;			upg_Spec	= ds_list_create();
 	globalvar upg_Rate;			upg_Rate	= ds_list_create();
 	globalvar upg_IFram;		upg_IFram	= ds_list_create();
+	globalvar purchaseList;		purchaseList = ds_list_create();
+	globalvar purchasePrice;	purchasePrice = ds_list_create();
+	
 	
 	ds_list_add(upg_HP, 5, 10, 25, 40, 75);
 	ds_list_add(upg_Spec, 1, 2, 3, 4, 5);
 	ds_list_add(upg_Rate, 10, 9, 7, 4, 2);
 	ds_list_add(upg_IFram, 30, 45, 60, 90, 150);
+	ds_list_add(purchaseList, 0, 0, 0, 0);
+	ds_list_add(purchasePrice, 500, 750, 1000, 1250);
 	
-	globalvar PlayerMAXHP;		PlayerMAXHP		= upg_HP[| upg.lvl1];
-	globalvar PlayerSpecial;	PlayerSpecial	= upg_Spec[| upg.lvl1];
-	globalvar FireRate;			FireRate		= upg_Rate[| upg.lvl1];
-	globalvar IFrameDur;		IFrameDur		= upg_IFram[| upg.lvl1];
+	globalvar PlayerMAXHP;		PlayerMAXHP		= upg_HP[| purchaseList[| 0]];
+	globalvar PlayerSpecial;	FireRate	= upg_Rate[| purchaseList[| 1]];
+	globalvar FireRate;			PlayerSpecial		= upg_Spec[| purchaseList[| 2]];
+	globalvar IFrameDur;		IFrameDur		= upg_IFram[| purchaseList[| 3]];
 	
 	
 	globalvar PlayerHP;			PlayerHP = 5;
 	globalvar PlayerTotalScore;	PlayerTotalScore = 0;
 	globalvar PlayerPoints;		PlayerPoints = 0;
 	globalvar PlayerKills;		PlayerKills = 0;
-	globalvar PlayerMoney;		PlayerMoney = 0;
+	globalvar PlayerMoney;		PlayerMoney = 2000;
 	
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, EnemyTest, EnemyTest2);
