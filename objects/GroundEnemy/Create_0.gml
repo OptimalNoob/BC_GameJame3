@@ -14,7 +14,7 @@ xmov = x;
 ymov = y;
 score_points = 10;
 zbound = 16;
-ai_decision = 1;
+ai_decision = 0;
 chase_speed = 1;
 
 var sSize = 128;

@@ -12,7 +12,7 @@ xmov = x;
 ymov = y;
 score_points = 15;
 zbound = 32;
-ai_decision = irandom(1);
+ai_decision = 0;
 chase_speed = 2;
 
 var sSize = 128;

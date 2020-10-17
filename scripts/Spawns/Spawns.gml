@@ -7,11 +7,13 @@ function spawn_random_enemy(_count){
 	};
 };
 
-function spawn_enemy(_id, _x, _y, _z){
+function spawn_enemy(_id, _x, _y, _z, _ai){
 	_inst = instance_create_layer(_x,_y,"lyr3D",_id);
 	_inst.xmov = _x
 	_inst.ymov = _y
 	_inst.zmov = _z
+	_inst.depth = _z
+	_inst.ai_decision = _ai
 }
 
 function spawn_building(_width, _height, _depth, _id, _x, _y, _tex){

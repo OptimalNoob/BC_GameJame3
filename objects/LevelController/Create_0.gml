@@ -7,7 +7,7 @@ switch(room){
 		LevelEnd = false;
 		NextLevel = rTitle;
 		
-		timeline_set(tlDebug, 0, false);
+		timeline_set(tLevel2, 0, false);
 		load_level(rDebug);
 	break;
 	case rLevel1:

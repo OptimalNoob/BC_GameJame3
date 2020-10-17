@@ -9,6 +9,6 @@ cube_depth	= 0;
 xmov = 0;
 ymov = 0;
 zmov = 5120;
-tex = sBuildling_test;
+tex = sBuildling02;
 
 alarm[0] = 2;
