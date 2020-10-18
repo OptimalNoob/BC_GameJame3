@@ -3,11 +3,11 @@
 for(i=0;i<5;i++){
 	playerBuffer[i] = vertex_create_buffer();
 }
-pLerp[0] = 0.001
-pLerp[1] = 0.005
-pLerp[2] = 0.01
-pLerp[3] = 0.015
-pLerp[4] = 0.02
+pLerp[0] = 0.02;
+pLerp[1] = 0.015;
+pLerp[2] = 0.01;
+pLerp[3] = 0.005;
+pLerp[4] = 0.001;
 mask_index = sBullet;
 matrix = 0;
 xmov = x;

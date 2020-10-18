@@ -8,9 +8,16 @@ var matrix = matrix_build(xmov,ymov,zmov,0,0,0,1,1,1);
 matrix_set(matrix_world, matrix);
 var _tex = 0;
 switch(room){
-	case rDebug: case rLevel1:
+	case rDebug: case rLevel01:
 		_tex = sGround01;
 	break;
+	case rLevel02:
+		_tex = sGround01;
+	break;
+	case rLevel03:
+		_tex = sGround01;
+	break;
+	
 	default: break;
 };
 vertex_submit(FloorBuffer, pr_trianglelist, sprite_get_texture(_tex,0));

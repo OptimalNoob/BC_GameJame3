@@ -1,6 +1,9 @@
 /// @desc
 if(position_meeting(mouse_x,mouse_y,id)){
-	draw_text(640,32,"Price:" + string(purchasePrice[|upgrade] * (index + 1)))	
+	draw_set_valign(fa_center);
+	draw_set_halign(fa_center);
+	draw_set_font(fntDefault);
+	if(image_index != 1) draw_text(x + 40,y + 40, string(price));
 	draw_line(24,y+92, 584, y+92);
 	switch(upgrade){
 		case 0:

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sUPG_debug",
-    "path": "sprites/sUPG_debug/sUPG_debug.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
