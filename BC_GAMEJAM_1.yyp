@@ -90,6 +90,7 @@
     {"id":{"name":"a_3","path":"sprites/a_3/a_3.yy",},"order":2,},
     {"id":{"name":"Bullet01","path":"objects/Bullet01/Bullet01.yy",},"order":1,},
     {"id":{"name":"oBTN_howto","path":"objects/oBTN_howto/oBTN_howto.yy",},"order":2,},
+    {"id":{"name":"Enemy04","path":"objects/Enemy04/Enemy04.yy",},"order":9,},
     {"id":{"name":"sEnemy04","path":"sprites/sEnemy04/sEnemy04.yy",},"order":6,},
     {"id":{"name":"CreditsController","path":"objects/CreditsController/CreditsController.yy",},"order":7,},
     {"id":{"name":"Camera3D","path":"objects/Camera3D/Camera3D.yy",},"order":0,},
