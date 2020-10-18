@@ -10,15 +10,18 @@ matrix_set(matrix_world, matrix)
 var _tex = 0;
 switch(room){
 	case rDebug:
-		_tex = sGround02b;
+		_tex = sGround01b;
 	break;
 	case rLevel01:
 		_tex = sGround01b;
 	break;
 	case rLevel02:
-		_tex = sGround02b;
+		_tex = sGround01b;
 	break;
 	case rLevel03:
+		_tex = sGround02b;
+	break;
+	case rLevel04:
 		_tex = sGround02b;
 	break;
 	
