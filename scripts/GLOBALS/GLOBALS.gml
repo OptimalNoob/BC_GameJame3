@@ -36,7 +36,7 @@ function init_globals(){
 	globalvar CurrentLevel;		CurrentLevel = "";
 	
 	globalvar EnList;			EnList = ds_list_create();
-								ds_list_add(EnList, Enemy01, Enemy012);
+								ds_list_add(EnList, Enemy01, Enemy02);
 	globalvar FloorSpeed;		FloorSpeed = 34;
 	globalvar DebugMode;		DebugMode = false;
 	
