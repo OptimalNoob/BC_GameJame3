@@ -38,7 +38,7 @@ if(spawn_buttons){
 		instance_create_layer(room_width - 16, room_height - 16, "lyrEntities", oBTN_moregames);
 	};
 };
-
+//TEst
 if(keyboard_check_pressed(vk_numpad0)) room_goto(rLevel10);
 if(keyboard_check_pressed(vk_numpad1)) room_goto(rLevel01);
 if(keyboard_check_pressed(vk_numpad2)) room_goto(rLevel02);
