@@ -1,6 +1,6 @@
 /// @desc
 FloorBuffer = vertex_create_buffer();
-xmov = 0;
+xmov = room_width / 2;
 ymov = 0;
 zmov = 0;
 cube_width	= BLOCK_SIZE * 2;
@@ -8,7 +8,7 @@ cube_height	= BLOCK_SIZE * 1;
 cube_depth	= BLOCK_SIZE * 4;
 
 
-x1 = -4096 * 1.5;
+x1 = 6000;
 y1 = scene.ground;
 z1 = 0;
 x2 = -x1;

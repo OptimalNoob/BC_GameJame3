@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f027b63e-31c6-405f-a25c-9e6ba89a5e6c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Textures",
-    "path": "folders/Textures.yy",
+    "name": "Building",
+    "path": "folders/Textures/Building.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBuilding02",

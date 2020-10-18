@@ -7,6 +7,3 @@ if(alarm[0] == -1){
 	vertex_submit(CubeBuffer, pr_trianglelist, sprite_get_texture(tex,0))
 	matrix_set(matrix_world, matrix_build_identity())
 };
-
-draw_set_color(c_red);
-draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, true);
