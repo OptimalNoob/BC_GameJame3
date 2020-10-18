@@ -15,9 +15,3 @@ enum upg{
 	lvl4,
 	lvl5
 };
-
-enum formation{
-	v,
-	s,
-	f8,
-}

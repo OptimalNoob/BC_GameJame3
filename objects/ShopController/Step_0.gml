@@ -10,7 +10,9 @@ if(button_count < 20){
 			180 + (j * btny_pad), "lyrEntities", oUPG_debug);
 			button_count++;
 			_inst.upgrade = j;
-			_inst.index = i
+			_inst.index = i;
+			_inst.sprite_index = btn_spr[j,i];
+			_inst.price = upg_price[j, i];
 		};
 	};
 };
@@ -21,9 +23,9 @@ PlayerSpecial	= upg_Spec[| purchaseList[| 2]];
 IFrameDur		= upg_IFram[| purchaseList[| 3]];
 PlayerHP = PlayerMAXHP;
 
-//if(keyboard_check_pressed(ord("M"))){
-//	PlayerMoney+=2500;	
-//}
+if(keyboard_check_pressed(ord("M"))){
+	PlayerMoney = min(99999, PlayerMoney + 12500);	
+}
 
 if(keyboard_check_pressed(vk_space)){
 	room_goto(NextLevel);

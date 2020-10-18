@@ -23,8 +23,8 @@ function init_globals(){
 	ds_list_add(purchasePrice, 500, 750, 1000, 1250);
 	
 	globalvar PlayerMAXHP;		PlayerMAXHP		= upg_HP[| purchaseList[| 0]];
-	globalvar PlayerSpecial;	FireRate	= upg_Rate[| purchaseList[| 1]];
-	globalvar FireRate;			PlayerSpecial		= upg_Spec[| purchaseList[| 2]];
+	globalvar PlayerSpecial;	FireRate		= upg_Rate[| purchaseList[| 1]];
+	globalvar FireRate;			PlayerSpecial	= upg_Spec[| purchaseList[| 2]];
 	globalvar IFrameDur;		IFrameDur		= upg_IFram[| purchaseList[| 3]];
 	
 	
@@ -33,6 +33,7 @@ function init_globals(){
 	globalvar PlayerPoints;		PlayerPoints = 0;
 	globalvar PlayerKills;		PlayerKills = 0;
 	globalvar PlayerMoney;		PlayerMoney = 0;
+	globalvar CurrentLevel;		CurrentLevel = "";
 	
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, EnemyTest, EnemyTest2);

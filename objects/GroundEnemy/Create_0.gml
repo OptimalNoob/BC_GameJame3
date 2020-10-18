@@ -13,7 +13,7 @@ depth = zmov;
 xmov = x;
 ymov = y;
 score_points = 10;
-zbound = 16;
+zbound = 24;
 ai_decision = 0;
 chase_speed = 1;
 

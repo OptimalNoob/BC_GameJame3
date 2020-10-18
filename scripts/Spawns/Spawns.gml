@@ -26,14 +26,3 @@ function spawn_building(_width, _height, _depth, _id, _x, _y, _tex){
 	_inst.tex = _tex;
 };
 
-function spawn_formation(_id, _x, _y, _z, _shape){
-		switch(_shape){
-			case formation.v:
-				spawn_enemy(_id, _x, _y, _z - 0, 0)
-				spawn_enemy(_id, _x + 200, _y, _z - 200, 0)
-				spawn_enemy(_id, _x + 400, _y, _z - 500, 0)
-				spawn_enemy(_id, _x + 600, _y, _z - 200, 0)
-				spawn_enemy(_id, _x + 800, _y, _z - 0, 0)
-				break;
-		}
-}

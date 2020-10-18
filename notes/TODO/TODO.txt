@@ -29,14 +29,14 @@ This is a doc to outline some of the things that still need to be done and gener
 
 //-Ground enemies
 
+//-Shop System? (Space Station?)
+
+//-End Level Screen (Get Money, Fuck Bitches)
+
 ******************** EVERYTHING ABOVE THIS LINE IS COMPLETED ********************
 
 
 -CLEAN UP BUFFERS WHEN NOT IN USE!!!
-
--End Level Screen (Get Money, Fuck Bitches)
-
--Shop System? (Space Station?)
 
 -World Building / More Levels
 
