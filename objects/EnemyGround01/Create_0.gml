@@ -16,6 +16,7 @@ score_points = 10;
 zbound = 24;
 ai_decision = 0;
 chase_speed = 1;
+hp = 3;
 
 var sSize = 128;
 

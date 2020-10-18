@@ -7,6 +7,7 @@ mask_index = sBullet;
 xmov = x;
 ymov = y;
 zmov = 0;
+bulletDamage = 1;
 
 x1 = -4;
 y1 = -4;

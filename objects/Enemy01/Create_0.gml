@@ -15,6 +15,7 @@ zbound = 32;
 ai_decision =  0;
 chase_speed = 2;
 fly_speed = 16;
+hp = 2;
 
 var sSize = 128;
 

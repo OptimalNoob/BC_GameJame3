@@ -1,7 +1,7 @@
 /// @desc
 
 for(i=0;i<5;i++){
-	matrix[i] = matrix_build(xmov,ymov,zmov+8*i,0,0,180,1,1,1)
+	matrix[i] = matrix_build(xmov,ymov,zmov+24*i,0,0,180,1,1,1)
 	matrix_set(matrix_world, matrix[i])
 	vertex_submit(enemyBuffer[i], pr_trianglelist, sprite_get_texture(sEnemy04, i))
 }
