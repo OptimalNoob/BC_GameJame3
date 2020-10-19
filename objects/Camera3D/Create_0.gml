@@ -1,6 +1,6 @@
 /// @desc Camera Init
 
-//window_set_cursor(cr_none);
+window_set_cursor(cr_none);
 
 // Setup Window
 surface_resize(application_surface, 1280, 720);

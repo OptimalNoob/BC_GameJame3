@@ -23,7 +23,7 @@ if(!anim_header && del_1){
 	score_out = min(PlayerPoints, score_out + 1);
 	hperc_out = min((PlayerHP / PlayerMAXHP) * 100, ++hperc_out);
 	kills_out = min(PlayerKills, ++kills_out);
-	money_out = floor((score_out * kills_out) * (hperc_out / 100));
+	money_out = floor((score_out * kills_out) * ((hperc_out / 100) + 1));
 	if(score_out != PlayerPoints && alarm[2] == -1){
 		alarm[2] = 8;
 		audio_play_sound(sndCounter, 10, false);
