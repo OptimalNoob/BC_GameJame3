@@ -13,3 +13,8 @@ spawn_building(3,4,5,Cube01, 1400, -1,6900, sBuilding05);
 spawn_building(3,6,3,Cube01, 0, -1,8400, sBuilding02);
 spawn_building(3,4,5,Cube01, 1400, -1,8400, sBuilding05);
 
+spawn_enemy(Enemy01, 400, 500, 5000, 0)
+spawn_enemy(Enemy01, 800, 500, 5000, 0)
+
+spawn_enemy(Enemy01, 400, 200, 5000, 0)
+spawn_enemy(Enemy01, 800, 200, 5000, 0)
