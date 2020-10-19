@@ -19,6 +19,10 @@ function place_meeting_3D(_x,_y,_z,_inst){
 		if(_z > _inst.zmov - _inst.zbound && _z < _inst.zmov + _inst.zbound){
 			var sentID = instIDs[|i]
 			ds_list_destroy(instIDs)
+			show_debug_message(_z)
+			show_debug_message(_inst.zmov)
+			show_debug_message(_inst.zbound)
+			
 			return sentID
 		}		
 	}
