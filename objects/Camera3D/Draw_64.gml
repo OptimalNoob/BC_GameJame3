@@ -69,5 +69,13 @@ draw_rectangle(
 			(16 + hb_w - 4) * (PlayerHP / PlayerMAXHP),
 			gui_h - hb_h - 16 + hb_h - 4,
 			false);
+draw_set_color(c_white);
+draw_set_valign(fa_center);
+draw_set_halign(fa_center);
+draw_set_font(fntDefault);
+draw_text(120, gui_h - hb_h + 6, string(PlayerHP) + " / " + string(PlayerMAXHP));
 #endregion
 };
+
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);
