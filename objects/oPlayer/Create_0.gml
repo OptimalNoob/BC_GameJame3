@@ -31,5 +31,5 @@ for(i=0;i<5;i++){
 	vertex_end(playerBuffer[i]);
 }
 
-//instance_create_layer(x,y,"lyr3D", oReticle);
+
 audio_play_sound(sndEngine01, 10, true);
