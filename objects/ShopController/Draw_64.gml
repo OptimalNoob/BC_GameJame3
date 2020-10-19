@@ -20,7 +20,7 @@ draw_text(110,306,"(Increase Fire Rate)");
 draw_text(172,446,"(Increase Special Ammo Capacity)");
 draw_text(148,586,"(Increase Invulnerability between hits)");
 
-draw_set_font(fntEndLevel);
+draw_set_font(fntShop);
 draw_set_halign(fa_right);
 draw_text(586, 78, string(PlayerMoney))
 draw_set_valign(fa_top);

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 1279,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 719,
   "HTile": false,
   "VTile": false,
-  "For3D": true,
-  "width": 128,
-  "height": 32,
+  "For3D": false,
+  "width": 1280,
+  "height": 720,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"313a9e53-a38f-4592-b457-f6e42c2bfefd","path":"sprites/sGround02b/sGround02b.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"313a9e53-a38f-4592-b457-f6e42c2bfefd","path":"sprites/sGround02b/sGround02b.yy",},"LayerId":{"name":"9b2bc3f4-6cdd-40b2-ad03-f11a137cfb42","path":"sprites/sGround02b/sGround02b.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGround02b","path":"sprites/sGround02b/sGround02b.yy",},"resourceVersion":"1.0","name":"313a9e53-a38f-4592-b457-f6e42c2bfefd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1b1a725f-1681-424a-a56e-f87c44870111","path":"sprites/sVignette/sVignette.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1b1a725f-1681-424a-a56e-f87c44870111","path":"sprites/sVignette/sVignette.yy",},"LayerId":{"name":"24b51f9c-b411-4780-83ff-29d37aaac989","path":"sprites/sVignette/sVignette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sVignette","path":"sprites/sVignette/sVignette.yy",},"resourceVersion":"1.0","name":"1b1a725f-1681-424a-a56e-f87c44870111","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGround02b","path":"sprites/sGround02b/sGround02b.yy",},
+    "spriteId": {"name":"sVignette","path":"sprites/sVignette/sVignette.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"bc82b395-c752-491e-8f7c-635dd9986ddc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"313a9e53-a38f-4592-b457-f6e42c2bfefd","path":"sprites/sGround02b/sGround02b.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ea241f61-ed8a-4599-8b38-5fa721f0e657","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b1a725f-1681-424a-a56e-f87c44870111","path":"sprites/sVignette/sVignette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGround02b","path":"sprites/sGround02b/sGround02b.yy",},
+    "parent": {"name":"sVignette","path":"sprites/sVignette/sVignette.yy",},
     "resourceVersion": "1.3",
-    "name": "sGround02b",
+    "name": "sVignette",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9b2bc3f4-6cdd-40b2-ad03-f11a137cfb42","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"24b51f9c-b411-4780-83ff-29d37aaac989","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Grounds",
-    "path": "folders/Textures/Grounds.yy",
+    "name": "Debug",
+    "path": "folders/Sprites/Debug.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sGround02b",
+  "name": "sVignette",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -8,16 +8,16 @@ switch(room){
 		_tex = sSky01;
 	break;
 	case rLevel03: case rLevel04:
-		_tex = sSky01;
+		_tex = sSky02;
 	break;
 	case rLevel05: case rLevel06:
-		_tex = sSky01;
+		_tex = sSky02;
 	break;
 	case rLevel07: case rLevel08:
-		_tex = sSky01;
+		_tex = sSky02;
 	break;
 	case rLevel09: case rLevel10:
-		_tex = sSky01;
+		_tex = sSky02;
 	break;
 	
 	default: break;
