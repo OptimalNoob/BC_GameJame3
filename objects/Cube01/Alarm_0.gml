@@ -19,7 +19,7 @@ vertex_end(CubeBuffer);
 
 x = xmov;
 y = ymov + cube_height / 2
-depth = zmov + cube_depth / 2;
+depth = zmov;
 
 image_xscale = cube_width / BLOCK_SIZE;
 image_yscale = cube_height / BLOCK_SIZE;

@@ -23,11 +23,11 @@ if(keyboard_check_pressed(ord("P"))){
 	room_goto(rEndLevel);
 };
 
-if(place_meeting_3D(xmov,ymov,zmov, Cube01) && !iframes){
-	iframes = true;
-	alarm[1] = IFrameDur;
-	PlayerHP--;
-};
+//if(place_meeting_3D(xmov,ymov,zmov, Cube01) && !iframes){
+//	iframes = true;
+//	alarm[1] = IFrameDur;
+//	PlayerHP--;
+//};
 
 x = xmov;
 y = ymov;
