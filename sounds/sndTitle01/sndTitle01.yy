@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.4,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "ag_music",
     "path": "audiogroups/ag_music",
   },
-  "soundFile": "sndTitle01.wav",
-  "duration": 302.3201,
+  "soundFile": "sndTitle01.ogg",
+  "duration": 68.57644,
   "parent": {
     "name": "SFX",
     "path": "folders/SFX.yy",

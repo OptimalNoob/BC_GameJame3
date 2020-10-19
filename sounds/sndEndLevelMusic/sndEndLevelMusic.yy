@@ -10,8 +10,8 @@
     "name": "ag_music",
     "path": "audiogroups/ag_music",
   },
-  "soundFile": "sndEndLevelMusic.wav",
-  "duration": 35.271553,
+  "soundFile": "sndEndLevelMusic.ogg",
+  "duration": 8.475583,
   "parent": {
     "name": "SFX",
     "path": "folders/SFX.yy",

@@ -16,7 +16,7 @@ draw_set_font(fntCredits2);
 
 draw_text(_x,_y + _pad, "George (UltraAceCombat)\nJake (OptimalNoob)");
 draw_text(_x,_y + _offset + _pad, "Jake (OptimalNoob)");
-draw_text(_x,_y + (_offset * 2) + _pad, "Josh (BlueCap)");
+draw_text(_x,_y + (_offset * 2) + _pad, "Josh\n(@soundcloud/bluecapbeats)");
 
 draw_set_halign(fa_left);
 draw_set_font(fntDefault);

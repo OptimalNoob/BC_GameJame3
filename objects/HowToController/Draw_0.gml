@@ -1,3 +1,3 @@
 /// @desc
-draw_sprite(sGuide_controls,0,32,200);
-draw_text(16,room_height - 32,"Q - Go Back");
+draw_sprite(sHowTo,0,0,0);
+draw_text(16,room_height - 20,"Q - Go Back");
