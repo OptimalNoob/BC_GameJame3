@@ -22,7 +22,5 @@ spawn_building(3,5,5,Cube01, 1400, -1,8100, sBuilding07);
 spawn_building(3,2,3,Cube01, 0, -1,8500, sBuilding03);
 spawn_building(3,6,5,Cube01, 1400, -1,8500, sBuilding05);
 
-spawn_formation(Enemy01, 220, 600, 5000, formation.v)
-spawn_formation(Enemy01, 220, 400, 5400, formation.v)
-spawn_formation(Enemy01, 220, 200, 5800, formation.v)
 
+LevelEnd = true;

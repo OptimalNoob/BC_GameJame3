@@ -13,3 +13,4 @@ spawn_building(3,6,5,Cube01, 1400, -1,6900, sBuilding05);
 spawn_formation(Enemy01, 640, 500, 5000, formation.s)
 
 spawn_formation(Enemy01, 220, 200, 5200, formation.v)
+
