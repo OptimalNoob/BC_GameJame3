@@ -1,11 +1,11 @@
 /// @desc Debug Drawing
-
+draw_set_color(c_white);
+draw_text(16,16,frame_count);
+frame_count++;
 var mouse_gui_x = device_mouse_x_to_gui(0);
 var mouse_gui_y = device_mouse_y_to_gui(0);
 var gui_h = display_get_gui_height();
 var gui_w = display_get_gui_height();
-
-draw_text(16,0,string(DebugMode) + "," + string(InLevel));
 
 if(DebugMode && InLevel){
 draw_set_color(c_white);
@@ -38,8 +38,6 @@ draw_text(16,16 * 23, "Player Z: " + string(oPlayer.depth));
 };
 
 if(InLevel){
-draw_text(16,16 * 1, "Score: " + string(PlayerPoints));
-draw_text(16,16 * 2, "Kills: " + string(PlayerKills));
 
 #region HelthBar
 draw_set_valign(fa_top);

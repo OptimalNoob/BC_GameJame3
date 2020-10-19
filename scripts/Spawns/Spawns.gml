@@ -62,3 +62,37 @@ function spawn_formation(_id, _x, _y, _z, _shape){
 			break;
 		}
 }
+
+function spawn_cluster_1(){
+	spawn_building(4, 8, 4, Cube01, -1000, -1, 5200, sBuilding01);
+	spawn_building(4, 6, 4, Cube01, -1000, -1, 5600, sBuilding02);
+	spawn_building(4, 10, 4, Cube01, -1000, -1, 6000, sBuilding03);
+	spawn_building(4, 8, 4, Cube01, -1000, -1, 6400, sBuilding04);
+	spawn_building(4, 4, 4, Cube01, -1000, -1, 6800, sBuilding05);
+	spawn_building(4, 18, 4, Cube01, -1000, -1, 7200, sBuilding06);
+	spawn_building(4, 2, 4, Cube01, -1000, -1, 7600, sBuilding07);
+
+	spawn_building(4, 8, 4, Cube01, 2000, -1, 5200, sBuilding01);
+	spawn_building(4, 6, 4, Cube01, 2000, -1, 5600, sBuilding02);
+	spawn_building(4, 10, 4, Cube01, 2000, -1, 6000, sBuilding03);
+	spawn_building(4, 8, 4, Cube01, 2000, -1, 6400, sBuilding04);
+	spawn_building(4, 4, 4, Cube01, 2000, -1, 6800, sBuilding05);
+	spawn_building(4, 18, 4, Cube01, 2000, -1, 7200, sBuilding06);
+	spawn_building(4, 2, 4, Cube01, 2000, -1, 7600, sBuilding07);
+
+	spawn_building(4, 2, 4, Cube01, -1600, -1, 5200, sBuilding02);
+	spawn_building(4, 6, 4, Cube01, -1600, -1, 5600, sBuilding01);
+	spawn_building(4, 8, 4, Cube01,-1600, -1, 6000, sBuilding05);
+	spawn_building(4, 4, 4, Cube01, -1600, -1, 6400, sBuilding03);
+	spawn_building(4, 10, 4, Cube01, -1600, -1, 6800, sBuilding07);
+	spawn_building(4, 15, 4, Cube01,-1600, -1, 7200, sBuilding06);
+	spawn_building(4, 4, 4, Cube01, -1600, -1, 7600, sBuilding03);
+
+	spawn_building(4, 8, 4, Cube01,  2600, -1, 5200, sBuilding04);
+	spawn_building(4, 5, 4, Cube01,  2600, -1, 5600, sBuilding01);
+	spawn_building(4, 4, 4, Cube01, 2600, -1, 6000, sBuilding02);
+	spawn_building(4, 5, 4, Cube01,  2600, -1, 6400, sBuilding05);
+	spawn_building(4, 18, 4, Cube01,  2600, -1, 6800, sBuilding02);
+	spawn_building(4, 6, 4, Cube01, 2600, -1, 7200, sBuilding07);
+	spawn_building(4, 4, 4, Cube01,  2600, -1, 7600, sBuilding06);
+};

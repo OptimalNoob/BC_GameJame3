@@ -6,6 +6,7 @@
 surface_resize(application_surface, 1280, 720);
 window_set_size(1280, 720);
 display_set_gui_size(1280, 720);
+frame_count = 0;
 
 //fps update timer
 fpsOut = "";

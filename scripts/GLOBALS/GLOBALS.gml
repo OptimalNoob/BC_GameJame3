@@ -15,7 +15,7 @@ function init_globals(){
 	globalvar purchasePrice;	purchasePrice = ds_list_create();
 	
 	
-	ds_list_add(upg_HP, 5, 10, 25, 40, 75);
+	ds_list_add(upg_HP, 10, 20, 30, 40, 75);
 	ds_list_add(upg_Spec, 1, 2, 3, 4, 5);
 	ds_list_add(upg_Rate, 10, 9, 7, 4, 2);
 	ds_list_add(upg_IFram, 30, 45, 60, 90, 150);
@@ -28,7 +28,7 @@ function init_globals(){
 	globalvar IFrameDur;		IFrameDur		= upg_IFram[| purchaseList[| 3]];
 	
 	
-	globalvar PlayerHP;			PlayerHP = 5;
+	globalvar PlayerHP;			PlayerHP = PlayerMAXHP;
 	globalvar PlayerTotalScore;	PlayerTotalScore = 0;
 	globalvar PlayerPoints;		PlayerPoints = 0;
 	globalvar PlayerKills;		PlayerKills = 0;
