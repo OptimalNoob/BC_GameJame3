@@ -1,5 +1,5 @@
 /// @desc
-depth -= 16
+depth -= fly_speed
 zmov = depth;
 if(zmov <- 200){
 	instance_destroy();

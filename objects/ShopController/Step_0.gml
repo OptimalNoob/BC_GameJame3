@@ -17,16 +17,17 @@ if(button_count < 20){
 	};
 };
 
-PlayerMAXHP		= upg_HP[| purchaseList[| 0]];
-FireRate		= upg_Rate[| purchaseList[| 1]];
-PlayerSpecial	= upg_Spec[| purchaseList[| 2]];
-IFrameDur		= upg_IFram[| purchaseList[| 3]];
-PlayerHP = PlayerMAXHP;
-
 if(keyboard_check_pressed(ord("M"))){
 	PlayerMoney = min(99999, PlayerMoney + 12500);	
-}
+};
 
 if(keyboard_check_pressed(vk_space)){
+	PlayerMAXHP			= upg_HP[| purchaseList[| 0]];
+	FireRate			= upg_Rate[| purchaseList[| 1]];
+	PlayerMAXSpecial	= upg_Spec[| purchaseList[| 2]];
+	IFrameDur			= upg_IFram[| purchaseList[| 3]];
+	PlayerHP			= PlayerMAXHP;
+	PlayerSpecial		= PlayerMAXSpecial;
+
 	room_goto(NextLevel);
 };

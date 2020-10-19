@@ -8,11 +8,12 @@ if(!LevelEnd){
 		_inst.xspawn = x;
 		_inst.zmov = depth + 50;
 	};
-	if(mouse_check_button_pressed(mb_right)){
+	if(mouse_check_button_pressed(mb_right) && PlayerSpecial > 0 && alarm[2] == -1){
+		alarm[2] = 60;
 		var _spcInst = instance_create_layer(x,y,"lyrEntities", BulletSpecial)
 		_spcInst.x = x;
 		_spcInst.y = y;
-		
+		PlayerSpecial--;
 	}
 	if(PlayerHP <= 0){
 		game_restart();

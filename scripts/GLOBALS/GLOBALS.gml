@@ -22,10 +22,11 @@ function init_globals(){
 	ds_list_add(purchaseList, 0, 0, 0, 0);
 	ds_list_add(purchasePrice, 500, 750, 1000, 1250);
 	
-	globalvar PlayerMAXHP;		PlayerMAXHP		= upg_HP[| purchaseList[| 0]];
-	globalvar PlayerSpecial;	FireRate		= upg_Rate[| purchaseList[| 1]];
-	globalvar FireRate;			PlayerSpecial	= upg_Spec[| purchaseList[| 2]];
-	globalvar IFrameDur;		IFrameDur		= upg_IFram[| purchaseList[| 3]];
+	globalvar PlayerMAXHP;		PlayerMAXHP			= upg_HP[| purchaseList[| 0]];
+	globalvar PlayerMAXSpecial;	PlayerMAXSpecial	= upg_Spec[| purchaseList[| 2]];
+	globalvar PlayerSpecial;	PlayerSpecial		= PlayerMAXSpecial
+	globalvar FireRate;			FireRate			= upg_Rate[| purchaseList[| 1]];
+	globalvar IFrameDur;		IFrameDur			= upg_IFram[| purchaseList[| 3]];
 	
 	
 	globalvar PlayerHP;			PlayerHP = PlayerMAXHP;

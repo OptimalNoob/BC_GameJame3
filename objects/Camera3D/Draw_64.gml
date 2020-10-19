@@ -75,6 +75,9 @@ draw_set_valign(fa_center);
 draw_set_halign(fa_center);
 draw_set_font(fntDefault);
 draw_text(120, gui_h - hb_h + 6, string(PlayerHP) + " / " + string(PlayerMAXHP));
+for(i = 0; i < PlayerSpecial; i++){
+	draw_sprite(sBomb_icon, 0, 96 + (24 * i), 643);
+};
 #endregion
 };
 
