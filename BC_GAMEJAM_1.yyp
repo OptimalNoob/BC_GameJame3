@@ -54,6 +54,7 @@
     {"id":{"name":"sReticle","path":"sprites/sReticle/sReticle.yy",},"order":1,},
     {"id":{"name":"LoadLevel","path":"scripts/LoadLevel/LoadLevel.yy",},"order":7,},
     {"id":{"name":"oBTN_quit","path":"objects/oBTN_quit/oBTN_quit.yy",},"order":4,},
+    {"id":{"name":"sndPurchase","path":"sounds/sndPurchase/sndPurchase.yy",},"order":8,},
     {"id":{"name":"EndLevelController","path":"objects/EndLevelController/EndLevelController.yy",},"order":10,},
     {"id":{"name":"sSky02","path":"sprites/sSky02/sSky02.yy",},"order":1,},
     {"id":{"name":"rLevel01","path":"rooms/rLevel01/rLevel01.yy",},"order":0,},
