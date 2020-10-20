@@ -11,7 +11,7 @@ zmov = depth;
 
 //----------Shooting Player
 if(alarm[0] == -1){
-	alarm[0] = irandom_range(40,120);
+	alarm[0] = irandom_range(20,80);
 	var _inst = instance_create_layer(x+75,y,"lyr3D",enBullet);
 	_inst.zmov = zmov;
 	_inst = instance_create_layer(x-75,y,"lyr3D",enBullet);
