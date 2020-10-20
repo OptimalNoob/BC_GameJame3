@@ -6,7 +6,7 @@ if(zmov <- 200){
 };
 
 if(alarm[0] == -1){
-	alarm[0] = irandom_range(10, 20)
+	alarm[0] = irandom_range(5, 15)
 	var _inst = instance_create_layer(x,y-64,"lyr3D",enBulletGround);
 	_inst.zmov = zmov;
 	_inst.xspeed = irandom_range(-3,3)
