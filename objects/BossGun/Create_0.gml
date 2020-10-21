@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_xscale = 16;
-image_yscale = 16;
+image_xscale = 8;
+image_yscale = 8;
 zbound = 64;
 xmov = x;
 ymov = y;

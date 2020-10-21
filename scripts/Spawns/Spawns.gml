@@ -167,14 +167,60 @@ function spawn_cluster_3(){
 
 function spawn_gun(_wave){
 	var _inst;
-	switch(_wave){
-		case 0: case 1: case 2: case 3: case 4:
-			_inst = instance_create_layer(x-512,y,"lyr3D", BossGun);
+	/*switch(_wave){
+		case 0:
+			_inst = instance_create_layer(x-578,y+8,"lyr3D", BossGun);
 			_inst.depth = zmov;
 			_inst.zmov = zmov;
-			_inst = instance_create_layer(x+512,y,"lyr3D", BossGun);
+			_inst = instance_create_layer(x+578,y+8,"lyr3D", BossGun);
 			_inst.depth = zmov;
 			_inst.zmov = zmov;
 		break;
-	};
+		case 1:
+			_inst = instance_create_layer(x-578,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+			_inst = instance_create_layer(x+578,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+		break;
+	};*/
+	
+	if(_wave>=0){
+			_inst = instance_create_layer(x-578,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+			_inst = instance_create_layer(x+578,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+	}
+	if(_wave>=1){
+			_inst = instance_create_layer(x-578 + 100,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+			_inst = instance_create_layer(x+578 - 100,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+	}
+	if(_wave>=2){
+			_inst = instance_create_layer(x-578 + 100 * 2,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+			_inst = instance_create_layer(x+578 - 100 * 2,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+	}
+	if(_wave>=3){
+			_inst = instance_create_layer(x-578 + 80 * 4 + 96,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+			_inst = instance_create_layer(x+578 - 80 * 4 - 96,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+	}
+	if(_wave>=4){
+			_inst = instance_create_layer(x,y+8,"lyr3D", BossGun);
+			_inst.depth = zmov - 33;
+			_inst.zmov = zmov - 33;	
 };
+}
