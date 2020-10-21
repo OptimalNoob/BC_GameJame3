@@ -19,7 +19,7 @@ chase_speed = 2;
 fly_speed = 16;
 image_xscale = 7;
 image_yscale = 7;
-wave = 3;
+wave = -1;
 waveActive = false;
 isWeak = false;
 
