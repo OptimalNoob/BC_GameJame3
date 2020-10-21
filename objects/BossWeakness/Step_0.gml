@@ -3,3 +3,4 @@
 if(instance_exists(FinalBoss)){
 	FinalBoss.hp = hp;
 }
+zmov = depth;

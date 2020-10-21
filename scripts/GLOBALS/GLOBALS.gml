@@ -43,6 +43,7 @@ function init_globals(){
 	
 	globalvar LevelEnd;			LevelEnd = false;
 	globalvar InLevel;			InLevel = false;
+	globalvar bossMAXHealth;	bossMAXHealth = 700;
 };
 function init_globals_newgame(){
 	PlayerHP = 5;

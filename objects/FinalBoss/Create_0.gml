@@ -32,5 +32,5 @@ for(i=0;i<6;i++){
 }
 
 // Main Init
-hp = 3200;
+hp = bossMAXHealth;
 state = boss.entering;

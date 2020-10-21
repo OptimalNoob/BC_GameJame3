@@ -11,4 +11,4 @@ zbound = 32;
 xmov = x;
 ymov = y;
 zmov = depth;
-alarm[0] = 60;
+alarm[0] = 360;
