@@ -29,22 +29,22 @@ if (keyboard_check(vk_escape)){
 };
 
 
-if (keyboard_check(ord("R"))){
-    game_restart();
-};
+//if (keyboard_check(ord("R"))){
+//    game_restart();
+//};
 
-if (keyboard_check(ord("T"))){
-	audio_stop_all();
-	room_goto(rTitle);
-};
+//if (keyboard_check(ord("T"))){
+//	audio_stop_all();
+//	room_goto(rTitle);
+//};
 
-if(keyboard_check_pressed(ord("L"))){
-	PlayerHP--;
-};
+//if(keyboard_check_pressed(ord("L"))){
+//	PlayerHP--;
+//};
 
-if(keyboard_check_pressed(ord("D"))){
-	DebugMode = !DebugMode;
-};
+//if(keyboard_check_pressed(ord("D"))){
+//	DebugMode = !DebugMode;
+//};
 
 if(alarm[1] == -1){
 	alarm[1] = 10;

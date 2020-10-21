@@ -44,3 +44,10 @@ switch(state){
 if(state = boss.nothing && !instance_exists(BossGun) && !waveActive && !isWeak){
 	state = boss.vulnerable;
 };
+
+if(hp <= 0){
+	instance_destroy(BossWeakness);
+	var _death  = instance_create_layer(x,y,"lyr3D", oBossDeath);
+	_death.depth = zmov;
+	instance_destroy();
+};

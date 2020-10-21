@@ -26,10 +26,10 @@ if(!LevelEnd){
 	};
 };
 
-if(keyboard_check_pressed(ord("P"))){
-	//audio_stop_all();
-	room_goto(rEndLevel);
-};
+//if(keyboard_check_pressed(ord("P"))){
+//	//audio_stop_all();
+//	room_goto(rEndLevel);
+//};
 
 //if(place_meeting_3D(xmov,ymov,zmov, Cube01) && !iframes){
 //	iframes = true;

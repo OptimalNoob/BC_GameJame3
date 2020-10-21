@@ -11,8 +11,8 @@ if(slide_tran){
 };
 
 draw_set_color(c_white);
-draw_text(16,16,frame_count);
-frame_count++;
+//draw_text(16,16,frame_count);
+//frame_count++;
 var mouse_gui_x = device_mouse_x_to_gui(0);
 var mouse_gui_y = device_mouse_y_to_gui(0);
 var gui_h = display_get_gui_height();

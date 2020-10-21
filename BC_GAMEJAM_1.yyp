@@ -195,6 +195,7 @@
     {"id":{"name":"sCS_6","path":"sprites/sCS_6/sCS_6.yy",},"order":5,},
     {"id":{"name":"TODO","path":"notes/TODO/TODO.yy",},"order":20,},
     {"id":{"name":"sUPG_hull03","path":"sprites/sUPG_hull03/sUPG_hull03.yy",},"order":2,},
+    {"id":{"name":"oBossDeath","path":"objects/oBossDeath/oBossDeath.yy",},"order":5,},
     {"id":{"name":"tlLevel04","path":"timelines/tlLevel04/tlLevel04.yy",},"order":13,},
     {"id":{"name":"sUPG_gun02","path":"sprites/sUPG_gun02/sUPG_gun02.yy",},"order":1,},
     {"id":{"name":"o_1","path":"sprites/o_1/o_1.yy",},"order":8,},

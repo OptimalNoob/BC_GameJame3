@@ -20,6 +20,6 @@ if(leave){
 
 draw_set_halign(fa_left);
 draw_set_font(fntDefault);
-draw_text(16,16, current);
-draw_text(16,32, current_max);
-draw_text(16,48, alarm[0]);
+//draw_text(16,16, current);
+//draw_text(16,32, current_max);
+//draw_text(16,48, alarm[0]);
