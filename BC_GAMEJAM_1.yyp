@@ -36,6 +36,7 @@
     {"id":{"name":"MusicController","path":"objects/MusicController/MusicController.yy",},"order":3,},
     {"id":{"name":"sUPG_shield03","path":"sprites/sUPG_shield03/sUPG_shield03.yy",},"order":2,},
     {"id":{"name":"a_2","path":"sprites/a_2/a_2.yy",},"order":1,},
+    {"id":{"name":"sBoss","path":"sprites/sBoss/sBoss.yy",},"order":16,},
     {"id":{"name":"sFadeOut","path":"sprites/sFadeOut/sFadeOut.yy",},"order":1,},
     {"id":{"name":"sBuilding05","path":"sprites/sBuilding05/sBuilding05.yy",},"order":4,},
     {"id":{"name":"sBTN_credits","path":"sprites/sBTN_credits/sBTN_credits.yy",},"order":3,},
