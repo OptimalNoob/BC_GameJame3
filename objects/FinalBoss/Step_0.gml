@@ -5,7 +5,7 @@ xmov = x;
 ymov = y;
 zmov = depth;
 
-if(zmov > 1000){
+if(zmov > 3000){
 	depth -= fly_speed;	
 }
 

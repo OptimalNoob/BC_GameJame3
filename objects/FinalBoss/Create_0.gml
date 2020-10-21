@@ -5,7 +5,7 @@
 for(i=0;i<6;i++){
 	enemyBuffer[i] = vertex_create_buffer();
 };
-mask_index = sEnemy01;
+mask_index = sBoss;
 matrix = 0;
 xmov = 300;
 ymov = scene.ground - 500;
@@ -19,10 +19,11 @@ ai_decision =  0;
 chase_speed = 2;
 fly_speed = 16;
 hp = 3200;
-invulnerable = false;
+invulnerable = true;
+image_xscale = 8;
+image_yscale = 8;
 
-
-var sSize = 128;
+var sSize = 1024;
 
 for(i=0;i<6;i++){
 	vertex_begin(enemyBuffer[i], Camera3D.format);
