@@ -44,6 +44,7 @@ switch(state){
 if(state = boss.nothing && !instance_exists(BossGun) && !waveActive && !isWeak){
 	state = boss.vulnerable;
 };
+show_debug_message(hp)
 
 if(hp <= 0){
 	instance_destroy(BossWeakness);

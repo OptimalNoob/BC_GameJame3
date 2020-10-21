@@ -17,9 +17,9 @@ if(button_count < 20){
 	};
 };
 
-//if(keyboard_check_pressed(ord("M"))){
-//	PlayerMoney = min(99999, PlayerMoney + 12500);	
-//};
+if(keyboard_check_pressed(ord("M"))){
+	PlayerMoney = min(99999, PlayerMoney + 12500);	
+};
 
 if(keyboard_check_pressed(vk_space)){
 	PlayerMAXHP			= upg_HP[| purchaseList[| 0]];
