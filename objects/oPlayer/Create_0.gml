@@ -17,8 +17,10 @@ depth = 0;
 offset = 1.2;
 vert_off = 16;
 fade_alph = 0;
-
-
+PlayerHP = PlayerMAXHP;
+PlayerSpecial = PlayerMAXSpecial;
+PlayerKills = 0;
+PlayerPoints = 0;
 
 iframes = false;
 

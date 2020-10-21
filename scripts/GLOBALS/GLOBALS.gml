@@ -35,6 +35,7 @@ function init_globals(){
 	globalvar PlayerKills;		PlayerKills = 0;
 	globalvar PlayerMoney;		PlayerMoney = 0;
 	globalvar CurrentLevel;		CurrentLevel = "";
+	globalvar CurrentRoom;		CurrentRoom = 0;
 	
 	globalvar EnList;			EnList = ds_list_create();
 								ds_list_add(EnList, Enemy01, Enemy02);

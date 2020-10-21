@@ -16,7 +16,8 @@ if(!LevelEnd){
 		PlayerSpecial--;
 	}
 	if(PlayerHP <= 0){
-		game_restart();
+		audio_stop_all();
+		room_goto(rContinue);
 	};
 }else{
 	if(depth > 10000){
