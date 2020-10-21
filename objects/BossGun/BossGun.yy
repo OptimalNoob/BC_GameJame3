@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sExplosion01",
-    "path": "sprites/sExplosion01/sExplosion01.yy",
+    "name": "sBossGun",
+    "path": "sprites/sBossGun/sBossGun.yy",
   },
   "solid": false,
   "visible": true,

@@ -74,6 +74,7 @@
     {"id":{"name":"Enemy01","path":"objects/Enemy01/Enemy01.yy",},"order":0,},
     {"id":{"name":"oShipSide","path":"objects/oShipSide/oShipSide.yy",},"order":12,},
     {"id":{"name":"sBTN_quit","path":"sprites/sBTN_quit/sBTN_quit.yy",},"order":1,},
+    {"id":{"name":"sBossGun","path":"sprites/sBossGun/sBossGun.yy",},"order":18,},
     {"id":{"name":"sUPG_gun03","path":"sprites/sUPG_gun03/sUPG_gun03.yy",},"order":2,},
     {"id":{"name":"sndLevelMusicFinal","path":"sounds/sndLevelMusicFinal/sndLevelMusicFinal.yy",},"order":9,},
     {"id":{"name":"rLevel04","path":"rooms/rLevel04/rLevel04.yy",},"order":3,},
