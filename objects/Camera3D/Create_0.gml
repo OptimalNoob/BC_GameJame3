@@ -7,6 +7,10 @@ surface_resize(application_surface, 1280, 720);
 window_set_size(1280, 720);
 display_set_gui_size(1280, 720);
 frame_count = 0;
+slide_tran = true;
+slide_1 = 0;
+slide_2 = 0;
+slide_speed = 0.001;
 
 //fps update timer
 fpsOut = "";

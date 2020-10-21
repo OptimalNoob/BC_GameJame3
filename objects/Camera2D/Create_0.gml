@@ -2,8 +2,11 @@
 
 window_set_cursor(cr_arrow);
 
-// Setup Window
-
+// Setup Transition
+slide_tran = true;
+slide_1 = 0;
+slide_2 = 0;
+slide_speed = 0.001;
 
 //fps update timer
 fpsOut = "";

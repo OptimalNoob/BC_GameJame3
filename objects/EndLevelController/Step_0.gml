@@ -31,12 +31,24 @@ if(!anim_header && del_1){
 };
 
 if(draw_cont && mouse_check_button_pressed(mb_left)){
+	score_out = PlayerPoints;
+	hperc_out = (PlayerHP / PlayerMAXHP) * 100;
+	kills_out = PlayerKills;
+	money_out = floor((score_out * kills_out) * ((hperc_out / 100) + 1));
+	
 	PlayerMoney = min(99999, PlayerMoney + money_out);
 	PlayerPoints = 0;
 	PlayerHP = PlayerMAXHP;
 	PlayerKills = 0;
 	audio_stop_all();
-	room_goto(rShop);
+	switch(NextLevel){
+		case rCutscene02:
+			room_goto(rCutscene02);
+		break;
+		default:
+			room_goto(rShop);
+		break;
+	};
 };
 
 audio_sound_gain(sndLevelMusic01, 0, 500);

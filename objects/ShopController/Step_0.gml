@@ -28,6 +28,7 @@ if(keyboard_check_pressed(vk_space)){
 	IFrameDur			= upg_IFram[| purchaseList[| 3]];
 	PlayerHP			= PlayerMAXHP;
 	PlayerSpecial		= PlayerMAXSpecial;
-
-	room_goto(NextLevel);
+	if(alarm[0] == -1) alarm[0] = 120;
+	leave = true;
 };
+

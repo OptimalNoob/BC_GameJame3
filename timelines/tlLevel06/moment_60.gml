@@ -1,5 +1,6 @@
-spawn_building(4,6,4,Cube01, 1200, -1,5000, sBuilding02);
-spawn_building(4,6,4,Cube01, 0, -1,5000, sBuilding02);
+spawn_formation(Enemy01,220,400,5000,formation.v)
 
-spawn_enemy(Enemy01, 300,scene.ground - 300, 5000, 0);
-spawn_enemy(Enemy01, 600,scene.ground - 300, 5000, 0);
+spawn_cluster_3();
+spawn_building(4,10,10,Cube01, -200, -1,6000, sBuilding03c);
+spawn_building(4,10,10,Cube01, 1300, -1,6000, sBuilding03c);
+spawn_building(20,4,9,Cube01, 550, scene.ground - 300,6064, sBuilding06c);

@@ -96,3 +96,71 @@ function spawn_cluster_1(){
 	spawn_building(4, 6, 4, Cube01, 2600, -1, 7200, sBuilding07);
 	spawn_building(4, 4, 4, Cube01,  2600, -1, 7600, sBuilding06);
 };
+
+function spawn_cluster_2(){
+	spawn_building(4, 8, 4, Cube02, -1000, -1, 5200, sBuilding01b);
+	spawn_building(4, 6, 4, Cube02, -1000, -1, 5600, sBuilding02b);
+	spawn_building(4, 10, 4, Cube02, -1000, -1, 6000, sBuilding03b);
+	spawn_building(4, 8, 4, Cube02, -1000, -1, 6400, sBuilding04b);
+	spawn_building(4, 4, 4, Cube02, -1000, -1, 6800, sBuilding05b);
+	spawn_building(4, 18, 4, Cube02, -1000, -1, 7200, sBuilding06b);
+	spawn_building(4, 2, 4, Cube02, -1000, -1, 7600, sBuilding07b);
+
+	spawn_building(4, 8, 4, Cube02, 2000, -1, 5200, sBuilding01b);
+	spawn_building(4, 6, 4, Cube02, 2000, -1, 5600, sBuilding02b);
+	spawn_building(4, 10, 4, Cube02, 2000, -1, 6000, sBuilding03b);
+	spawn_building(4, 8, 4, Cube02, 2000, -1, 6400, sBuilding04b);
+	spawn_building(4, 4, 4, Cube02, 2000, -1, 6800, sBuilding05b);
+	spawn_building(4, 18, 4, Cube02, 2000, -1, 7200, sBuilding06b);
+	spawn_building(4, 2, 4, Cube02, 2000, -1, 7600, sBuilding07b);
+
+	spawn_building(4, 2, 4, Cube02, -1600, -1, 5200, sBuilding02b);
+	spawn_building(4, 6, 4, Cube02, -1600, -1, 5600, sBuilding01b);
+	spawn_building(4, 8, 4, Cube02,-1600, -1, 6000, sBuilding05b);
+	spawn_building(4, 4, 4, Cube02, -1600, -1, 6400, sBuilding03b);
+	spawn_building(4, 10, 4, Cube02, -1600, -1, 6800, sBuilding07b);
+	spawn_building(4, 15, 4, Cube02,-1600, -1, 7200, sBuilding06b);
+	spawn_building(4, 4, 4, Cube02, -1600, -1, 7600, sBuilding03b);
+
+	spawn_building(4, 8, 4, Cube02,  2600, -1, 5200, sBuilding04b);
+	spawn_building(4, 5, 4, Cube02,  2600, -1, 5600, sBuilding01b);
+	spawn_building(4, 4, 4, Cube02, 2600, -1, 6000, sBuilding02b);
+	spawn_building(4, 5, 4, Cube02,  2600, -1, 6400, sBuilding05b);
+	spawn_building(4, 18, 4, Cube02,  2600, -1, 6800, sBuilding02b);
+	spawn_building(4, 6, 4, Cube02, 2600, -1, 7200, sBuilding07b);
+	spawn_building(4, 4, 4, Cube02,  2600, -1, 7600, sBuilding06b);
+};
+
+function spawn_cluster_3(){
+	spawn_building(4, 8, 4, Cube01, -1000, -1, 5200, sBuilding01c);
+	spawn_building(4, 6, 4, Cube01, -1000, -1, 5600, sBuilding02c);
+	spawn_building(4, 10, 4, Cube01, -1000, -1, 6000, sBuilding03c);
+	spawn_building(4, 8, 4, Cube01, -1000, -1, 6400, sBuilding04c);
+	spawn_building(4, 4, 4, Cube01, -1000, -1, 6800, sBuilding05c);
+	spawn_building(4, 18, 4, Cube01, -1000, -1, 7200, sBuilding06c);
+	spawn_building(4, 2, 4, Cube01, -1000, -1, 7600, sBuilding07c);
+
+	spawn_building(4, 8, 4, Cube01, 2000, -1, 5200, sBuilding01c);
+	spawn_building(4, 6, 4, Cube01, 2000, -1, 5600, sBuilding02c);
+	spawn_building(4, 10, 4, Cube01, 2000, -1, 6000, sBuilding03c);
+	spawn_building(4, 8, 4, Cube01, 2000, -1, 6400, sBuilding04c);
+	spawn_building(4, 4, 4, Cube01, 2000, -1, 6800, sBuilding05c);
+	spawn_building(4, 18, 4, Cube01, 2000, -1, 7200, sBuilding06c);
+	spawn_building(4, 2, 4, Cube01, 2000, -1, 7600, sBuilding07c);
+
+	spawn_building(4, 2, 4, Cube01, -1600, -1, 5200, sBuilding02c);
+	spawn_building(4, 6, 4, Cube01, -1600, -1, 5600, sBuilding01c);
+	spawn_building(4, 8, 4, Cube01,-1600, -1, 6000, sBuilding05c);
+	spawn_building(4, 4, 4, Cube01, -1600, -1, 6400, sBuilding03c);
+	spawn_building(4, 10, 4, Cube01, -1600, -1, 6800, sBuilding07c);
+	spawn_building(4, 15, 4, Cube01,-1600, -1, 7200, sBuilding06c);
+	spawn_building(4, 4, 4, Cube01, -1600, -1, 7600, sBuilding03c);
+
+	spawn_building(4, 8, 4, Cube01,  2600, -1, 5200, sBuilding04c);
+	spawn_building(4, 5, 4, Cube01,  2600, -1, 5600, sBuilding01c);
+	spawn_building(4, 4, 4, Cube01, 2600, -1, 6000, sBuilding02c);
+	spawn_building(4, 5, 4, Cube01,  2600, -1, 6400, sBuilding05c);
+	spawn_building(4, 18, 4, Cube01,  2600, -1, 6800, sBuilding02c);
+	spawn_building(4, 6, 4, Cube01, 2600, -1, 7200, sBuilding07c);
+	spawn_building(4, 4, 4, Cube01,  2600, -1, 7600, sBuilding06c);
+};

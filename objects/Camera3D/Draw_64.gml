@@ -1,5 +1,15 @@
 /// @desc Debug Drawing
 
+if(slide_tran){
+	if(alarm[2] == -1) alarm[2] = 160;
+	draw_sprite(sSlidTran, 0, 0, 0 + slide_1);
+	draw_sprite(sSlidTran, 0, 0, display_get_gui_height() / 2 + slide_2);
+	
+	slide_1 = lerp(slide_1, -1000, slide_speed);
+	slide_2 = lerp(slide_2, 1000, slide_speed);
+	slide_speed += 0.001;
+};
+
 draw_set_color(c_white);
 draw_text(16,16,frame_count);
 frame_count++;
@@ -7,6 +17,12 @@ var mouse_gui_x = device_mouse_x_to_gui(0);
 var mouse_gui_y = device_mouse_y_to_gui(0);
 var gui_h = display_get_gui_height();
 var gui_w = display_get_gui_height();
+switch(room){
+	case rLevel07:
+	draw_sprite(sVignette, 0, 0, 0);
+	break;
+	default: break;
+};
 
 if(DebugMode && InLevel){
 draw_set_color(c_white);

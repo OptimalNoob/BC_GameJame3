@@ -13,11 +13,13 @@ depth = zmov;
 xmov = x;
 ymov = y;
 score_points = 10;
-zbound = 24;
+zbound = 48;
 ai_decision = 0;
 chase_speed = 1;
 fly_speed = 16;
-hp = 3;
+hp = 5;
+image_xscale = 2;
+image_yscale = 2;
 
 var sSize = 128;
 

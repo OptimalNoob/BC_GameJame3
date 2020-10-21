@@ -1,3 +1,11 @@
-spawn_building(4,2,4,Cube01, 500, -1,5000, sBuilding07);
-spawn_building(10,10,10,Cube01, -200, -1,5000, sBuilding07);
+spawn_building(3,4,3,Cube01, 0, -1,4900, sBuilding02c);
+spawn_building(5,3,2,Cube01, 1400, -1,4900, sBuilding03c);
 
+spawn_building(3,5,3,Cube01, 0, -1,5300, sBuilding02c);
+spawn_building(5,3,2,Cube01, 1400, -1,5300, sBuilding03c);
+
+spawn_building(3,4,3,Cube01, 0, -1,5700, sBuilding02c);
+spawn_building(5,4,2,Cube01, 1400, -1,5700, sBuilding03c);
+
+spawn_building(3,3,3,Cube01, 0, -1,6100, sBuilding02c);
+spawn_building(5,5,2,Cube01, 1400, -1,6100, sBuilding03c);

@@ -31,3 +31,8 @@ draw_text(room_width - 16, room_height - 24, "Space - Continue");
 
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
+
+if(leave){
+	draw_sprite_ext(sFadeOut, 0, 0, 0, 1, 1, 0, c_white, fade_alph);
+	fade_alph = min(1, fade_alph + 0.01);
+};

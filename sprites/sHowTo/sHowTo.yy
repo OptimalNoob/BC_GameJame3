@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"20342848-7cbe-438d-80e1-8fd461c56003","path":"sprites/sHowTo/sHowTo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"20342848-7cbe-438d-80e1-8fd461c56003","path":"sprites/sHowTo/sHowTo.yy",},"LayerId":{"name":"663e1ac9-7365-4253-8d47-81eb47e654fe","path":"sprites/sHowTo/sHowTo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHowTo","path":"sprites/sHowTo/sHowTo.yy",},"resourceVersion":"1.0","name":"20342848-7cbe-438d-80e1-8fd461c56003","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dc39fb50-e979-4abf-abc2-8a1d0d81a963","path":"sprites/sHowTo/sHowTo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dc39fb50-e979-4abf-abc2-8a1d0d81a963","path":"sprites/sHowTo/sHowTo.yy",},"LayerId":{"name":"ceb36fd6-97a0-429e-b0d4-d6c4136fc6e4","path":"sprites/sHowTo/sHowTo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHowTo","path":"sprites/sHowTo/sHowTo.yy",},"resourceVersion":"1.0","name":"dc39fb50-e979-4abf-abc2-8a1d0d81a963","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sHowTo","path":"sprites/sHowTo/sHowTo.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1632c0e8-9a63-43e6-9e05-0c5bbf1f9983","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"20342848-7cbe-438d-80e1-8fd461c56003","path":"sprites/sHowTo/sHowTo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b681fe24-cb78-4ca7-8d26-a91aaf5cb854","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc39fb50-e979-4abf-abc2-8a1d0d81a963","path":"sprites/sHowTo/sHowTo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"663e1ac9-7365-4253-8d47-81eb47e654fe","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ceb36fd6-97a0-429e-b0d4-d6c4136fc6e4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Debug",

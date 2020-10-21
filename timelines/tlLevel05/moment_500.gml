@@ -1,1 +1,1 @@
-spawn_building(20,6,2,Cube01, 0, -1,5000, sBuilding04);
+spawn_building(20,6,2,Cube01, 0, -1, sBuilding04);

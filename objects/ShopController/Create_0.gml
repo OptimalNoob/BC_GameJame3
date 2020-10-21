@@ -3,6 +3,11 @@
 button_count = 0;
 instance_create_layer(692, 110, "lyrEntities", oShipSide);
 
+//Setup Transition
+fade_alph = 0;
+leave = false;
+alarm[0] = -1;
+
 //Upgrade Sprites - Hull
 btn_spr[0,0] = sUPG_hull01;
 btn_spr[0,1] = sUPG_hull02;

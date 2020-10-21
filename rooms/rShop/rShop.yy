@@ -23,7 +23,7 @@
     {"spriteId":{"name":"sTitle_bg","path":"sprites/sTitle_bg/sTitle_bg.yy",},"colour":4283190348,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":-2.0,"vspeed":-2.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"lyrBG2","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/rTitle/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/rShop/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_1A99828D","path":"rooms/rShop/rShop.yy",},
