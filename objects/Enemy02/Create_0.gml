@@ -17,6 +17,7 @@ chase_speed = 2;
 fly_speed = 16;
 hp = 3;
 var sSize = 128;
+invulnerable = false;
 
 for(i=0;i<5;i++){
 	vertex_begin(enemyBuffer[i], Camera3D.format);

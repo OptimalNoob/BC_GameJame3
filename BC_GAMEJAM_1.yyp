@@ -178,6 +178,7 @@
     {"id":{"name":"n_2","path":"sprites/n_2/n_2.yy",},"order":7,},
     {"id":{"name":"sUPG_special01","path":"sprites/sUPG_special01/sUPG_special01.yy",},"order":1,},
     {"id":{"name":"sBuilding07","path":"sprites/sBuilding07/sBuilding07.yy",},"order":6,},
+    {"id":{"name":"FinalBoss","path":"objects/FinalBoss/FinalBoss.yy",},"order":0,},
     {"id":{"name":"rHowTo","path":"rooms/rHowTo/rHowTo.yy",},"order":2,},
     {"id":{"name":"sCS_6","path":"sprites/sCS_6/sCS_6.yy",},"order":5,},
     {"id":{"name":"TODO","path":"notes/TODO/TODO.yy",},"order":20,},
@@ -272,6 +273,7 @@
     {"folderPath":"folders/Sprites/Debug.yy","order":13,"resourceVersion":"1.0","name":"Debug","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Textures/BuildlingDestroyed.yy","order":15,"resourceVersion":"1.0","name":"BuildlingDestroyed","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Cutscenes.yy","order":15,"resourceVersion":"1.0","name":"Cutscenes","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Entities/Enemies/Boss.yy","order":8,"resourceVersion":"1.0","name":"Boss","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

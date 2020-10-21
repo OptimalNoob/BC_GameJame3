@@ -18,6 +18,7 @@ fly_speed = 16;
 hp = 20;
 image_xscale = 4;
 image_yscale = 2;
+invulnerable = false;
 
 var sSize = 256;
 

@@ -16,6 +16,7 @@ ai_decision =  0;
 chase_speed = 2;
 fly_speed = 16;
 hp = 2;
+invulnerable = false;
 
 var sSize = 128;
 
