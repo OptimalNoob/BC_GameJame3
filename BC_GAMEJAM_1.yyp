@@ -13,6 +13,7 @@
     {"id":{"name":"sndWoosh","path":"sounds/sndWoosh/sndWoosh.yy",},"order":1,},
     {"id":{"name":"sVignette","path":"sprites/sVignette/sVignette.yy",},"order":2,},
     {"id":{"name":"tlLevel01","path":"timelines/tlLevel01/tlLevel01.yy",},"order":5,},
+    {"id":{"name":"sBossWeakness_strip2","path":"sprites/sBossWeakness_strip2/sBossWeakness_strip2.yy",},"order":17,},
     {"id":{"name":"sGuide_controls","path":"sprites/sGuide_controls/sGuide_controls.yy",},"order":21,},
     {"id":{"name":"sSpecExplosion","path":"sprites/sSpecExplosion/sSpecExplosion.yy",},"order":3,},
     {"id":{"name":"sGround01a","path":"sprites/sGround01a/sGround01a.yy",},"order":0,},
