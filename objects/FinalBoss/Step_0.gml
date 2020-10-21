@@ -6,9 +6,30 @@ ymov = y;
 zmov = depth;
 
 if(zmov > 3000){
-	depth -= fly_speed;	
+	depth -= fly_speed;
+	atLocation = false;
+}else{
+	atLocation = true;
 }
 
+if(atLocation && !instance_exists(BossGun)){
+	switch(wave){
+		case 0:
+			_inst = instance_create_layer(x-768,y,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst = instance_create_layer(x+768,y,"lyr3D", BossGun);
+			_inst.depth = zmov;
+		break;
+		
+		default:
+		break;
+	}
+}
+
+if(!instance_exists(BossGun) && !instance_exists(BossWeakness) && atLocation){
+		_inst = instance_create_layer(x,y - 180,"lyr3D", BossWeakness)
+		_inst.depth = zmov
+}
 
 //----------Shooting Player
 /*if(alarm[0] == -1){

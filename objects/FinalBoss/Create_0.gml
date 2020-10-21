@@ -20,10 +20,16 @@ chase_speed = 2;
 fly_speed = 16;
 hp = 3200;
 invulnerable = true;
-image_xscale = 8;
-image_yscale = 8;
+image_xscale = 7;
+image_yscale = 7;
 
-var sSize = 1024;
+atLocation = false;
+wave = 0;
+
+//Spawn starting guns here when created
+
+
+var sSize = 768;
 
 for(i=0;i<6;i++){
 	vertex_begin(enemyBuffer[i], Camera3D.format);

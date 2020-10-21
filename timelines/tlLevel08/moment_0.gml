@@ -1,1 +1,1 @@
-spawn_enemy(FinalBoss, 600, 400, 5000, 0)
+spawn_enemy(FinalBoss, 640, 400, 5000, 0)
