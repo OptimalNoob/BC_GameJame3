@@ -1,0 +1,1 @@
+spawn_enemy(FinalBoss, 600, 400, 5000, 0)
