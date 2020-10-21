@@ -25,6 +25,9 @@ image_yscale = 7;
 
 atLocation = false;
 wave = 0;
+gunSpawned = false;
+flyAway = false;
+waveActive = false;
 
 //Spawn starting guns here when created
 

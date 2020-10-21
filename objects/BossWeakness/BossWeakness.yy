@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "EnemyParent",
-    "path": "objects/EnemyParent/EnemyParent.yy",
+    "name": "BossParent",
+    "path": "objects/BossParent/BossParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,6 +26,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"BossWeakness","path":"objects/BossWeakness/BossWeakness.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"BossWeakness","path":"objects/BossWeakness/BossWeakness.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"BossWeakness","path":"objects/BossWeakness/BossWeakness.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

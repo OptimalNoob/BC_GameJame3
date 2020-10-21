@@ -57,6 +57,7 @@
     {"id":{"name":"sBuilding07c","path":"sprites/sBuilding07c/sBuilding07c.yy",},"order":7,},
     {"id":{"name":"HowToController","path":"objects/HowToController/HowToController.yy",},"order":6,},
     {"id":{"name":"fntEndLevel","path":"fonts/fntEndLevel/fntEndLevel.yy",},"order":3,},
+    {"id":{"name":"tlBoss01","path":"timelines/tlBoss01/tlBoss01.yy",},"order":0,},
     {"id":{"name":"rLevel07","path":"rooms/rLevel07/rLevel07.yy",},"order":6,},
     {"id":{"name":"rLevel09","path":"rooms/rLevel09/rLevel09.yy",},"order":8,},
     {"id":{"name":"rCutscene02","path":"rooms/rCutscene02/rCutscene02.yy",},"order":10,},
@@ -207,6 +208,7 @@
     {"id":{"name":"sBuilding03","path":"sprites/sBuilding03/sBuilding03.yy",},"order":2,},
     {"id":{"name":"o_3","path":"sprites/o_3/o_3.yy",},"order":10,},
     {"id":{"name":"EnemyGround02","path":"objects/EnemyGround02/EnemyGround02.yy",},"order":7,},
+    {"id":{"name":"BossParent","path":"objects/BossParent/BossParent.yy",},"order":14,},
     {"id":{"name":"Floor","path":"objects/Floor/Floor.yy",},"order":2,},
     {"id":{"name":"rDebug","path":"rooms/rDebug/rDebug.yy",},"order":0,},
   ],
@@ -277,6 +279,7 @@
     {"folderPath":"folders/Textures/BuildlingDestroyed.yy","order":15,"resourceVersion":"1.0","name":"BuildlingDestroyed","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Cutscenes.yy","order":15,"resourceVersion":"1.0","name":"Cutscenes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Entities/Enemies/Boss.yy","order":8,"resourceVersion":"1.0","name":"Boss","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/LevelTimelines/BossTimelines.yy","order":16,"resourceVersion":"1.0","name":"BossTimelines","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
