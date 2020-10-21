@@ -164,3 +164,17 @@ function spawn_cluster_3(){
 	spawn_building(4, 6, 4, Cube01, 2600, -1, 7200, sBuilding07c);
 	spawn_building(4, 4, 4, Cube01,  2600, -1, 7600, sBuilding06c);
 };
+
+function spawn_gun(_wave){
+	var _inst;
+	switch(_wave){
+		case 0: case 1: case 2: case 3: case 4:
+			_inst = instance_create_layer(x-512,y,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+			_inst = instance_create_layer(x+512,y,"lyr3D", BossGun);
+			_inst.depth = zmov;
+			_inst.zmov = zmov;
+		break;
+	};
+};

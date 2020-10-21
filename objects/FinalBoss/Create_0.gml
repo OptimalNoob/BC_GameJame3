@@ -1,7 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc Boss Init
 
-
+// Model Init
 for(i=0;i<6;i++){
 	enemyBuffer[i] = vertex_create_buffer();
 };
@@ -18,19 +17,11 @@ zbound = 48;
 ai_decision =  0;
 chase_speed = 2;
 fly_speed = 16;
-hp = 3200;
-invulnerable = true;
 image_xscale = 7;
 image_yscale = 7;
-
-atLocation = false;
-wave = 0;
-gunSpawned = false;
-flyAway = false;
+wave = -1;
 waveActive = false;
-
-//Spawn starting guns here when created
-
+isWeak = false;
 
 var sSize = 768;
 
@@ -39,3 +30,7 @@ for(i=0;i<6;i++){
 	draw_3d_wall(enemyBuffer[i], -sSize,-sSize,sSize,sSize, 0, 1,1,c_white)
 	vertex_end(enemyBuffer[i]);
 }
+
+// Main Init
+hp = 3200;
+state = boss.entering;

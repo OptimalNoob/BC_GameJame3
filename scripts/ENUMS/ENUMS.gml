@@ -21,3 +21,12 @@ enum formation{
 	s,
 	f8
 }
+
+enum boss{
+	leaving,
+	entering,
+	spawning,
+	wavespawn,
+	vulnerable,
+	nothing
+};

@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-FinalBoss.flyAway = true;
+FinalBoss.state = boss.leaving;
+FinalBoss.isWeak = false;
+
 instance_destroy();
