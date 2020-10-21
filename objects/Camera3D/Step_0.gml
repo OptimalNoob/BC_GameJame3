@@ -38,9 +38,9 @@ if (keyboard_check(vk_escape)){
 //	room_goto(rTitle);
 //};
 
-if(keyboard_check_pressed(ord("L"))){
-	PlayerHP--;
-};
+//if(keyboard_check_pressed(ord("L"))){
+//	PlayerHP--;
+//};
 
 //if(keyboard_check_pressed(ord("D"))){
 //	DebugMode = !DebugMode;

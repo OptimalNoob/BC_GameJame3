@@ -14,5 +14,5 @@ draw_rectangle(gui_w / 2 - hb_w / 2, 16,
 				false);
 draw_set_color(c_red);
 draw_rectangle(gui_w / 2 - hb_w / 2 + diff, 16 + diff,
-				(gui_w / 2 + hb_w / 2 - diff) * (FinalBoss.hp / bossMAXHealth), 16 + hb_h - diff,
+				(gui_w / 2 - hb_w / 2 + diff) + ((hb_w - 4) * (FinalBoss.hp / bossMAXHealth)), 16 + hb_h - diff,
 				false);

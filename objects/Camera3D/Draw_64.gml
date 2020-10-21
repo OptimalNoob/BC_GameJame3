@@ -83,7 +83,7 @@ draw_set_color(c_red);
 draw_rectangle(
 			16 + 4,
 			gui_h - hb_h - 16 + 4,
-			(16 + hb_w - 4) * (PlayerHP / PlayerMAXHP),
+			20 + ((hb_w - 8) * (PlayerHP / PlayerMAXHP)),
 			gui_h - hb_h - 16 + hb_h - 4,
 			false);
 draw_set_color(c_white);
