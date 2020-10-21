@@ -17,6 +17,7 @@
     {"id":{"name":"sGuide_controls","path":"sprites/sGuide_controls/sGuide_controls.yy",},"order":21,},
     {"id":{"name":"sSpecExplosion","path":"sprites/sSpecExplosion/sSpecExplosion.yy",},"order":3,},
     {"id":{"name":"sGround01a","path":"sprites/sGround01a/sGround01a.yy",},"order":0,},
+    {"id":{"name":"BossBullet","path":"objects/BossBullet/BossBullet.yy",},"order":3,},
     {"id":{"name":"ShopController","path":"objects/ShopController/ShopController.yy",},"order":11,},
     {"id":{"name":"sUPG_gun05","path":"sprites/sUPG_gun05/sUPG_gun05.yy",},"order":4,},
     {"id":{"name":"Cube02","path":"objects/Cube02/Cube02.yy",},"order":6,},
