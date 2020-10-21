@@ -6,6 +6,6 @@ zbound = 64;
 xmov = x;
 ymov = y;
 zmov = depth;
-hp = 1;
+hp = 5;
 score_points = 10;
 fly_speed = 0;
