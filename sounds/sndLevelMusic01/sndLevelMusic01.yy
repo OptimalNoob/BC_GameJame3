@@ -11,7 +11,7 @@
     "path": "audiogroups/ag_music",
   },
   "soundFile": "sndLevelMusic01.ogg",
-  "duration": 113.010712,
+  "duration": 84.71088,
   "parent": {
     "name": "SFX",
     "path": "folders/SFX.yy",

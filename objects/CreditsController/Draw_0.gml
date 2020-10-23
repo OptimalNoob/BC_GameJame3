@@ -21,4 +21,4 @@ draw_text(_x,_y + (_offset * 2) + _pad, "Josh\n(@soundcloud/bluecapbeats)");
 draw_set_halign(fa_left);
 draw_set_font(fntDefault);
 
-draw_text(16,room_height - 32, "Q - Go Back");
+//draw_text(16,room_height - 32, "Q - Go Back");

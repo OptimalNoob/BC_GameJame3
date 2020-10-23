@@ -17,6 +17,9 @@ depth = 0;
 offset = 1.2;
 vert_off = 16;
 fade_alph = 0;
+image_xscale = 8;
+image_yscale = 2;
+
 PlayerHP = PlayerMAXHP;
 PlayerSpecial = PlayerMAXSpecial;
 PlayerKills = 0;

@@ -1,7 +1,12 @@
 /// @desc
+con_w = sprite_get_width(sBTN_continue);
+con_h = sprite_get_height(sBTN_continue);
 
 button_count = 0;
 instance_create_layer(692, 110, "lyrEntities", oShipSide);
+audio_play_sound(sndShop, 10, true);
+instance_create_layer(room_width - 116 - con_w, room_height - con_h - 156,
+"lyrEntities", oBTN_continue);
 
 //Setup Transition
 fade_alph = 0;

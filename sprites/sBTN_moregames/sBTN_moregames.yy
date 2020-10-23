@@ -24,9 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"87a320ed-8d4f-4e13-bf96-e61a58942380","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"87a320ed-8d4f-4e13-bf96-e61a58942380","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"LayerId":{"name":"299c5a21-8830-42c4-bbff-68206759297d","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBTN_moregames","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","name":"87a320ed-8d4f-4e13-bf96-e61a58942380","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a59c9cf1-e117-472b-85ec-5e33703824c6","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a59c9cf1-e117-472b-85ec-5e33703824c6","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"LayerId":{"name":"d7bf81c8-eef6-47e9-93c6-0de1d810a2bc","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBTN_moregames","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","name":"a59c9cf1-e117-472b-85ec-5e33703824c6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2f511ad3-3283-436d-9c14-fe7b4b3f17fb","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2f511ad3-3283-436d-9c14-fe7b4b3f17fb","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"LayerId":{"name":"d7bf81c8-eef6-47e9-93c6-0de1d810a2bc","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBTN_moregames","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","name":"2f511ad3-3283-436d-9c14-fe7b4b3f17fb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sBTN_moregames","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d23ffc9f-63b9-42de-82de-7b83b332a827","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"87a320ed-8d4f-4e13-bf96-e61a58942380","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a837a4f5-8f23-4798-87e6-bee5d2bb75b8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a59c9cf1-e117-472b-85ec-5e33703824c6","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5e6fb05e-cb12-4547-9971-fcb1d9e2fdf8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f511ad3-3283-436d-9c14-fe7b4b3f17fb","path":"sprites/sBTN_moregames/sBTN_moregames.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"299c5a21-8830-42c4-bbff-68206759297d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d7bf81c8-eef6-47e9-93c6-0de1d810a2bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Buttons",

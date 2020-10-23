@@ -1,6 +1,7 @@
 /// @desc
 alarm[0] = 240;
 alarm[1] = -1;
+audio_play_sound(sndCutscene, 10, true);
 
 fade_alph = 0;
 leave = false;

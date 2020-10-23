@@ -17,6 +17,7 @@ if(!LevelEnd){
 	}
 	if(PlayerHP <= 0){
 		audio_stop_all();
+		audio_play_sound(sndDeath, 10, false);
 		room_goto(rContinue);
 	};
 }else{
@@ -38,5 +39,5 @@ if(!LevelEnd){
 //};
 
 x = xmov;
-y = ymov;
+y = ymov + 16;
 zmov = depth;
