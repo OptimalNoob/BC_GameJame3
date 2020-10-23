@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Nova Rain",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.0.0.0",
+  "option_windows_version": "1.4.0.0",
   "option_windows_company_info": "Grommet Games",
   "option_windows_product_info": "Gam",
   "option_windows_copyright_info": "Yes Please",

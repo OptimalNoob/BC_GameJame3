@@ -11,13 +11,14 @@ if(row_1_y > row_1_end - 0.5){
 
 if(play_title && !audio_is_playing(sndTitle01)){
 	audio_play_sound(sndTitle01, 10, 1);
+	audio_sound_gain(sndTitle01, 1, 1);
 };
 
 //if(keyboard_check_pressed(ord("R"))) game_restart();
 
-if(keyboard_check_pressed(vk_escape)){
-	game_end();
-}
+//if(keyboard_check_pressed(vk_escape)){
+//	game_end();
+//}
 
 //if(keyboard_check_pressed(vk_enter)){
 //	audio_stop_all();
@@ -38,7 +39,7 @@ if(spawn_buttons){
 		instance_create_layer(room_width - 16, room_height - 16, "lyrEntities", oBTN_moregames);
 	};
 };
-//TEst
+
 //if(keyboard_check_pressed(vk_numpad0)) room_goto(rLevel10);
 //if(keyboard_check_pressed(vk_numpad1)) room_goto(rLevel01);
 //if(keyboard_check_pressed(vk_numpad2)) room_goto(rLevel02);

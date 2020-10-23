@@ -21,14 +21,14 @@ if(button_count < 20){
 //	PlayerMoney = min(99999, PlayerMoney + 12500);	
 //};
 
-if(keyboard_check_pressed(vk_space)){
-	PlayerMAXHP			= upg_HP[| purchaseList[| 0]];
-	FireRate			= upg_Rate[| purchaseList[| 1]];
-	PlayerMAXSpecial	= upg_Spec[| purchaseList[| 2]];
-	IFrameDur			= upg_IFram[| purchaseList[| 3]];
-	PlayerHP			= PlayerMAXHP;
-	PlayerSpecial		= PlayerMAXSpecial;
-	if(alarm[0] == -1) alarm[0] = 120;
-	leave = true;
-};
+//if(keyboard_check_pressed(vk_space)){
+//	PlayerMAXHP			= upg_HP[| purchaseList[| 0]];
+//	FireRate			= upg_Rate[| purchaseList[| 1]];
+//	PlayerMAXSpecial	= upg_Spec[| purchaseList[| 2]];
+//	IFrameDur			= upg_IFram[| purchaseList[| 3]];
+//	PlayerHP			= PlayerMAXHP;
+//	PlayerSpecial		= PlayerMAXSpecial;
+//	if(alarm[0] == -1) alarm[0] = 120;
+//	leave = true;
+//};
 

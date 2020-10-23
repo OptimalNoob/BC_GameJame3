@@ -26,7 +26,7 @@ draw_text(586, 78, string(PlayerMoney))
 draw_set_valign(fa_top);
 
 draw_set_font(fntDefault);
-draw_text(room_width - 16, room_height - 24, "Space - Continue");
+//draw_text(room_width - 16, room_height - 24, "Space - Continue");
 
 
 draw_set_valign(fa_top);
